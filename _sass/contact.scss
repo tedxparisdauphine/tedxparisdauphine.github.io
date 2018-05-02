@@ -1,0 +1,18 @@
+.contact__email-input {
+  width: 100%;
+  border: none;
+  background: #f5f5f5;
+  margin-bottom: 24px;
+  border-radius: 0;
+  padding: 16px 20px;
+  font-size: 1.1em;
+}
+
+.contact__email-input:focus {
+  outline: 1px solid #ccc;
+}
+
+.contact__message-area {
+  height: 150px;
+  font-size: 1.1em;
+}

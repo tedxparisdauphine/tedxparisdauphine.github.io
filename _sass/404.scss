@@ -1,0 +1,27 @@
+@import "settings";
+
+.not-found__container {
+  min-height: 80vh;
+  padding-top: 8em;
+}
+
+.not-found__heading {
+  font-size: 10em;
+  font-weight: 500;
+  color: $ted-red;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.not-found__subtitle {
+  font-size: 2.5em;
+  font-weight: 200;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.not-found__go-back-link-wrapper {
+  text-align: center;
+}

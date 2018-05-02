@@ -1,0 +1,19 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "global";
+@import "header";
+@import "footer";
+@import "home";
+@import "videos";
+@import "join-us";
+@import "404";
+@import "about";
+@import "infos";
+@import "partners";
+@import "thank-you";
+@import "contact";
+
+@import "youtube-embed";

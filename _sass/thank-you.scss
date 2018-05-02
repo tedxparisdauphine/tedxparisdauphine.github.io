@@ -1,0 +1,27 @@
+@import "settings";
+
+.thank-you__container {
+  min-height: 80vh;
+  padding-top: 15em;
+}
+
+.thank-you__heading {
+  font-size: 3em;
+  font-weight: 500;
+  color: $ted-red;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.thank-you__subtitle {
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.thank-you__go-back-link-wrapper {
+  text-align: center;
+}

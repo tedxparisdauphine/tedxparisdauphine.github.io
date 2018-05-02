@@ -1,0 +1,77 @@
+<header>
+    <div class="nav-container">
+        <nav class="nav-wrapper">
+            <div class="nav-bar">
+                <div class="module left">
+                    <a href="/">
+                        <img class="logo" alt="tedx-universite-paris-dauphine"
+                             src="/assets/img/logo-tedx-universite-paris-dauphine.svg">
+                    </a>
+                </div>
+                <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                    <i class="ti-menu"></i>
+                </div>
+                <div class="module-group right">
+                    <div class="module left">
+                        <ul class="menu mobile-menu">
+                            <li>
+                                <a href="/">Accueil</a>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Vidéos</a>
+                                <ul class="mobile-menu">
+                                    {% for video in site.videos %}
+                                    <li>
+                                        <a href="{{ video.url }}">Édition {{ video.year }}</a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="/partenaires/">Partenaires</a>
+                            </li>
+                            <li>
+                                <a href="/infos-pratiques/">Infos pratiques</a>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">À propos</a>
+                                <ul class="mobile-menu">
+                                    <li>
+                                        <a href="/association/">L'association</a>
+                                    </li>
+                                    <li>
+                                        <a href="/ted-et-tedx/">TED & TEDx</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="/contact/">Contact</a>
+                            </li>
+                            {% if site.selling %}
+                            <li>
+                                <div class="right">
+                                    <a class="btn btn-sm btn-red header__btn-tickets"
+                                       href="{{ site.ticketing-url }}"
+                                       target="_blank">Billeterie</a>
+                                </div>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                    {% if site.selling == false %}
+                        <div class="module widget-handle left">
+                            <ul class="menu">
+                                <li>
+                                    <a href="https://www.facebook.com/tedxparisdauphine/" target="_blank">
+                                        <img class="header__facebook-logo" src="/assets/img/facebook-tedx-dauphine.png"
+                                             alt="facebook-tedx-dauphine">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>

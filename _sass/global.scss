@@ -1,0 +1,70 @@
+@import "settings";
+
+a, a:visited {
+  color: $ted-red;
+}
+
+a:hover,
+a:focus {
+  color: $dark-red;
+}
+
+.background-red {
+  background: $ted-red;
+}
+
+.background-grey {
+  background: #f8f8f8;
+}
+
+.background-dark {
+  background: #000000;
+}
+
+.btn-red, .btn-red:visited {
+  color: #ffffff;
+  border-color: $ted-red;
+  background: $ted-red;
+}
+
+.btn-red:hover, .btn-red:focus, .btn-red:active {
+  color: #ffffff !important;
+  border-color: $dark-red !important;
+  background: $dark-red !important;
+  opacity: 1 !important;
+}
+
+.speaker-last-name {
+  color: $ted-red;
+  font-weight: 800;
+}
+
+.mobile-separator {
+  padding: 10%;
+}
+
+.medium-heading {
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 6px;
+  margin-right: -6px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.page-title-1 {
+  height: 250px !important;
+}
+
+@media (max-width: 767px) {
+  .mobile-menu li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-menu li ul li a {
+    font-size: 16px;
+  }
+}

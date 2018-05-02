@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /rejoignez-nous/
+Disallow: /merci/

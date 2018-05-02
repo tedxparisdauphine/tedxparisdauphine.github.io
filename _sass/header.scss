@@ -1,0 +1,19 @@
+.menu a, .menu a:visited {
+  color: #000000;
+}
+
+.menu a:hover, .menu a:active, .menu a:focus {
+  opacity: 0.6;
+}
+
+.header__facebook-logo {
+  width: 48px;
+  padding: 10px;
+}
+
+.header__btn-tickets {
+  color: #ffffff !important;
+  border-color: #e62b1e;
+  background: #e62b1e;
+  padding: 0 12px !important;
+}

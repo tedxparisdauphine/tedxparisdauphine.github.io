@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+{% include head.html %}
+<body>
+{% include header.html %}
+
+<div class="main-container">
+    <section class="page-title page-title-1 image-bg overlay">
+        <div class="background-image-holder">
+            <img alt="{{ page.theme.title | slugify }}-tedx-dauphine" class="background-image"
+                 src="{{ page.banner }}">
+        </div>
+        <div class="container">
+            <h2 class="videos__heading-2">Édition {{ page.year }}</h2>
+        </div>
+    </section>
+
+    <section class="background-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 videos__description">
+                    <h1 class="mb40 mb-xs-24 videos__heading-1">{{ page.theme.title }}</h1>
+                    <p class="lead">
+                        {{ page.theme.description }}
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-secondary">
+        <h2 class="text-center mb80">Découvrez les talks de l'édition {{ page.year }} en vidéos</h2>
+
+        {% for talk in page.talks %}
+
+        <div class="container mb-xs-0 mb80">
+
+            <div class="row v-align-children">
+                <div class="col-md-6 mb-xs-24">
+                    <div class="local-video-container"
+                         id="{{ talk.speaker-first-name | slugify }}-{{ talk.speaker-last-name | slugify }}">
+                        <div class="youtube-player" data-id="{{ talk.youtube-id }}"></div>
+                    </div>
+                </div>
+                <div class="col-md-5 videos__talk-wrapper">
+                    <h3 class="videos__speaker-name">
+                        {{ talk.speaker-first-name }} <span
+                            class="speaker-last-name">{{ talk.speaker-last-name }}</span>
+                        {% if talk.second-speaker-first-name %}
+                            & {{ talk.second-speaker-first-name }} <span class="speaker-last-name">{{ talk.second-speaker-last-name }}</span>
+                        {% endif %}
+                    </h3>
+                    <h3>{{ talk.title }}</h3>
+                    <p class="text-justify">
+                        {{ talk.description }}
+                    </p>
+                </div>
+
+                {% if forloop.last == false %}
+                    <div class="visible-xs mobile-separator">
+                        <hr>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+        {% endfor %}
+    </section>
+</div>
+
+{% include footer.html %}
+</body>
+</html>

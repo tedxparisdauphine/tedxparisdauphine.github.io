@@ -1,29 +1,36 @@
-# site settings
-url: http://tedxparisdauphine.com
+---
 title: TEDx Université Paris-Dauphine - Conférences TEDx à l'université Paris-Dauphine
-description: >
-  TEDx Université Paris-Dauphine est une association dont l'objectif est d’organiser des conférences de façon indépendante sous licence TED afin de favoriser la diffusion d’idées au sein de l'Université Paris-Dauphine.
-image: /assets/img/tedx-dauphine-home-background.jpg
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  videos:
+    title: Videos
+    output: true
+    permalink: "/:collection/edition-:name/"
+defaults:
+- scope:
+    path: ''
+    type: videos
+  values:
+    layout: videos
+    youtube-embed: true
+url: http://tedxparisdauphine.com
+description: 'TEDx Université Paris-Dauphine est une association dont l''objectif
+  est d’organiser des conférences de façon indépendante sous licence TED afin de favoriser
+  la diffusion d’idées au sein de l''Université Paris-Dauphine.
+
+'
+image: "/assets/img/tedx-dauphine-home-background.jpg"
 selling: false
 ticketing-url: https://www.weezevent.com/tedx-universite-paris-dauphine-2017-envie
-
-collections:
-  videos:
-    output: true
-    permalink: /:collection/edition-:name/
-
-defaults:
-  - scope:
-      path: ""
-      type: videos
-    values:
-      layout: videos
-      youtube-embed: true
-
-# build settings
 permalink: pretty
-include: ['_pages']
-
+include:
+- _pages
 sass:
   sass_dir: _sass
   style: compressed

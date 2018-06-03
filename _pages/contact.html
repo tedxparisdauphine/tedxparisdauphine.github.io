@@ -12,7 +12,10 @@ description: Contactez TEDx Université Paris-Dauphine.
             <h1 class="medium-heading">Contactez-nous</h1>
             <div class="row mb64">
                 <div class="col-sm-6 col-sm-offset-3">
-                    <form name='contact' accept-charset='UTF-8' action='/merci/' method='POST' netlify>
+                    <form name='contact' accept-charset='UTF-8' action='/merci/' method='POST' netlify-honeypot="bot-field" netlify>
+                        <p class="hidden">
+                            <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+                        </p>
                         <label for="email-address">Email</label>
                         <br><input class="contact__email-input" type="email" id="email-address" name="email" required>
                         <br><label for="message">Message</label>

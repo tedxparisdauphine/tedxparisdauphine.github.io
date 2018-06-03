@@ -7,5 +7,19 @@
     {{ content }}
 
     {% include footer.html %}
+
+    {% if page.netlify-identity %}
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", function (user) {
+                if (!user) {
+                    window.netlifyIdentity.on("login", function () {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
+    {% endif %}
 </body>
 </html>

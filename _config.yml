@@ -19,6 +19,10 @@ defaults:
     values:
       layout: videos
       youtube-embed: true
+  - scope:
+      path: "_pages/home.html"
+    values:
+      netlify-identity: true
 
 # build settings
 permalink: pretty

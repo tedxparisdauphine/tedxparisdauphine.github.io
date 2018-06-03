@@ -1,0 +1,31 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "assets/img"
+
+collections:
+  - name: "videos" # Used in routes, e.g., /admin/collections/blog
+    label: "Videos" # Used in the UI
+    folder: "_videos" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Social media image", name: "image", widget: "image"}
+      - label: "Theme"
+        name: "theme"
+        widget: "object"
+        - {label: "Theme title", name: "title", widget: "string"}
+        - {label: "Theme description", name: "description", widget: "string"}
+      - {label: "Banner", name: "banner", widget: "image"}
+      - label: "Talks"
+        name: "talks"
+        widget: "list"
+        fields:
+          - {label: "Speaker first name", name: speaker-first-name, widget: string}
+          - {label: "Speaker last name", name: speaker-last-name, widget: string}
+          - {label: "Talk title", name: title, widget: string}
+          - {label: "Talk description", name: description, widget: string}
+          - {label: "YouTube ID", name: description, widget: string}

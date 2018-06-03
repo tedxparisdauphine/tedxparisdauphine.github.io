@@ -9,7 +9,7 @@ collections:
     label: "Videos" # Used in the UI
     folder: "_videos" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}.html" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}

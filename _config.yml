@@ -22,7 +22,7 @@ defaults:
 
 # build settings
 permalink: pretty
-include: ['_pages']
+include: ['_pages', '_redirects']
 
 sass:
   sass_dir: _sass

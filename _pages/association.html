@@ -32,7 +32,7 @@ description: Découvrez l'association TEDx Université Paris-Dauphine.
                         <img src="/assets/img/equipe-tedx-dauphine.jpg" alt="equipe-tedx-dauphine">
                     </div>
 
-                    {% for team in site.data.teams reversed %}
+                    {% for team in site.data.teams.teams reversed %}
 
                         <h3 class="text-center mb8">{{ team.year }}</h3>
                         <p>{{ team.members }}</p>

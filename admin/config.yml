@@ -58,3 +58,13 @@ collections:
               - {label: 'Last name', name: last-name, widget: string}
               - {label: Description, name: description, widget: text}
               - {label: Picture, name: picture, widget: image}
+      - label: "Teams"
+        name: "teams"
+        file: "_data/teams.yml"
+        fields:
+          - label: Teams
+            name: teams
+            widget: list
+            fields:
+              - {label: Year, name: year, widget: string}
+              - {label: Members, name: members, widget: text}

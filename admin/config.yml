@@ -29,7 +29,7 @@ collections:
           - {label: "Speaker last name", name: speaker-last-name, widget: string}
           - {label: "Talk title", name: title, widget: string}
           - {label: "Talk description", name: description, widget: text}
-          - {label: "YouTube ID", name: description, widget: string}
+          - {label: "YouTube ID", name: description, widget: youtube-id}
 
   - label: "Data"
     name: "data"

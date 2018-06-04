@@ -1,41 +1,42 @@
-- name: Université Paris Dauphine
-  logo: /assets/img/partners/universite-paris-dauphine-tedx-dauphine.png
-  website: http://www.dauphine.fr/
-  description: >
-    L’université Paris-Dauphine est un établissement public d’enseignement supérieur et de recherche français spécialisé dans les sciences des organisations et des marchés
+partners:
+  - name: Université Paris Dauphine
+    logo: /assets/img/partners/universite-paris-dauphine-tedx-dauphine.png
+    website: http://www.dauphine.fr/
+    description: >
+      L’université Paris-Dauphine est un établissement public d’enseignement supérieur et de recherche français spécialisé dans les sciences des organisations et des marchés
 
-- name: PSL
-  logo: /assets/img/partners/psl-tedx-dauphine.png
-  website: https://www.univ-psl.fr/fr
-  description: >
-    L’université de recherche Paris Sciences & Lettres est une communauté d'universités et établissements française. Elle regroupe vingt-six institutions.
+  - name: PSL
+    logo: /assets/img/partners/psl-tedx-dauphine.png
+    website: https://www.univ-psl.fr/fr
+    description: >
+      L’université de recherche Paris Sciences & Lettres est une communauté d'universités et établissements française. Elle regroupe vingt-six institutions.
 
-- name: Ladurée
-  logo: /assets/img/partners/laduree-tedx-dauphine.png
-  website: https://www.laduree.fr/
-  description: >
-    Ladurée, maison de macarons et fabriquant de douceurs depuis 1862, expérience unique de la gourmandise à la française, dispose aujourd'hui de salons de thé et restaurants autour du monde.
+  - name: Ladurée
+    logo: /assets/img/partners/laduree-tedx-dauphine.png
+    website: https://www.laduree.fr/
+    description: >
+      Ladurée, maison de macarons et fabriquant de douceurs depuis 1862, expérience unique de la gourmandise à la française, dispose aujourd'hui de salons de thé et restaurants autour du monde.
 
-- name: Vaivai
-  logo: /assets/img/partners/vaivai-tedx-dauphine.png
-  website: https://www.vaivai.fr/fr/
-  description: >
-    Spécialiste français, propose depuis 7 ans une sélection d'eaux de coco 100% naturelles pour vous faire (re)découvrir les goûts de la noix de coco.
+  - name: Vaivai
+    logo: /assets/img/partners/vaivai-tedx-dauphine.png
+    website: https://www.vaivai.fr/fr/
+    description: >
+      Spécialiste français, propose depuis 7 ans une sélection d'eaux de coco 100% naturelles pour vous faire (re)découvrir les goûts de la noix de coco.
 
-- name: Nature Addicts
-  logo: /assets/img/partners/nature-addicts-tedx-dauphine.png
-  website: http://www.na-natureaddicts.com/fr
-  description: >
-    La marque Nature Addicts, N.A! réinvente le monde du snacking en créant des encas sucrés et salés 100% issus de la nature et surtout délicieux !
+  - name: Nature Addicts
+    logo: /assets/img/partners/nature-addicts-tedx-dauphine.png
+    website: http://www.na-natureaddicts.com/fr
+    description: >
+      La marque Nature Addicts, N.A! réinvente le monde du snacking en créant des encas sucrés et salés 100% issus de la nature et surtout délicieux !
 
-- name: L'ADN
-  logo: /assets/img/partners/l-adn-tedx-dauphine.png
-  website: http://www.ladn.eu/
-  description : >
-    Tous les jours, l'actualité de l'innovation marketing, communication et business, les meilleures start-up, le top des campagnes de publicité.
+  - name: L'ADN
+    logo: /assets/img/partners/l-adn-tedx-dauphine.png
+    website: http://www.ladn.eu/
+    description : >
+      Tous les jours, l'actualité de l'innovation marketing, communication et business, les meilleures start-up, le top des campagnes de publicité.
 
-- name: Heetch
-  logo: /assets/img/partners/heetch-tedx-dauphine.png
-  website: https://www.heetch.com/
-  description: >
-    Heetch de retour et partenaire de TEDx Université Paris-Dauphine ! Il t'accompagne pour ta soirée et te propose son moyen de transport pensé pour la vie nocturne.
+  - name: Heetch
+    logo: /assets/img/partners/heetch-tedx-dauphine.png
+    website: https://www.heetch.com/
+    description: >
+      Heetch de retour et partenaire de TEDx Université Paris-Dauphine ! Il t'accompagne pour ta soirée et te propose son moyen de transport pensé pour la vie nocturne.

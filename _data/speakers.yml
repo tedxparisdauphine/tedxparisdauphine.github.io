@@ -1,24 +1,25 @@
-- first-name: Nicolas
-  last-name: Détrie
-  description: Spécialiste de l’urbanisme et co-fondateur de l’association Yes We Camp, Nicolas Détrie met en lumière, à travers son talk, l’importance de l’aménagement du territoire pour favoriser les rencontres et l’échange.
-  picture: /assets/img/speakers/nicolas-detrie-tedx-dauphine.png
+speakers:
+  - first-name: Nicolas
+    last-name: Détrie
+    description: Spécialiste de l’urbanisme et co-fondateur de l’association Yes We Camp, Nicolas Détrie met en lumière, à travers son talk, l’importance de l’aménagement du territoire pour favoriser les rencontres et l’échange.
+    picture: /assets/img/speakers/nicolas-detrie-tedx-dauphine.png
 
-- first-name: Christophe
-  last-name: De Hody
-  description: Naturopathe et herbaliste, il s'est donné pour mission de faire découvrir la richesse et les bienfaits de la nature. Son talk a été l'occasion de partager sa passion et de révéler les clés pour devenir autonome grâce à la nature.
-  picture: /assets/img/speakers/christophe-de-hody-tedx-dauphine.png
+  - first-name: Christophe
+    last-name: De Hody
+    description: Naturopathe et herbaliste, il s'est donné pour mission de faire découvrir la richesse et les bienfaits de la nature. Son talk a été l'occasion de partager sa passion et de révéler les clés pour devenir autonome grâce à la nature.
+    picture: /assets/img/speakers/christophe-de-hody-tedx-dauphine.png
 
-- first-name: Aline
-  last-name: Tacite
-  description: Aline Tacite est la fondatrice de Boucles d'Ebène Studio, le premier salon français spécialisé dans le cheveu crépu, frisé et bouclé. Véritable activiste, Aline lutte aujourd’hui contre le poids des normes sociales et contre la stigmatisation de la frisure.
-  picture: /assets/img/speakers/aline-tacite-tedx-dauphine.png
+  - first-name: Aline
+    last-name: Tacite
+    description: Aline Tacite est la fondatrice de Boucles d'Ebène Studio, le premier salon français spécialisé dans le cheveu crépu, frisé et bouclé. Véritable activiste, Aline lutte aujourd’hui contre le poids des normes sociales et contre la stigmatisation de la frisure.
+    picture: /assets/img/speakers/aline-tacite-tedx-dauphine.png
 
-- first-name: Imaan
-  last-name: M.
-  description: Longtemps engagée à France Terre d’Asile et à la Croix-Rouge, Imaan M. se consacre désormais à sa marque de vêtements Gulshaan. À travers son talk, elle vous propose de relever le défi de l’engagement pour devenir un acteur du monde de demain.
-  picture: /assets/img/speakers/imaan-m-tedx-dauphine.png
+  - first-name: Imaan
+    last-name: M.
+    description: Longtemps engagée à France Terre d’Asile et à la Croix-Rouge, Imaan M. se consacre désormais à sa marque de vêtements Gulshaan. À travers son talk, elle vous propose de relever le défi de l’engagement pour devenir un acteur du monde de demain.
+    picture: /assets/img/speakers/imaan-m-tedx-dauphine.png
 
-- first-name: Wissam
-  last-name: Sammouri
-  description: Wissam Sammouri est Data Scientist, co-fondateur de Pixis, enseignant à l’Université Paris Descartes et à l'ECE. Son talk est une invitation à penser la carrière professionnelle autrement, au travers de l'intelligence artificielle.
-  picture: /assets/img/speakers/wissam-sammouri-tedx-dauphine.png
+  - first-name: Wissam
+    last-name: Sammouri
+    description: Wissam Sammouri est Data Scientist, co-fondateur de Pixis, enseignant à l’Université Paris Descartes et à l'ECE. Son talk est une invitation à penser la carrière professionnelle autrement, au travers de l'intelligence artificielle.
+    picture: /assets/img/speakers/wissam-sammouri-tedx-dauphine.png

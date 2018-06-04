@@ -46,3 +46,11 @@ collections:
               - {label: Logo, name: logo, widget: image}
               - {label: Website, name: website, widget: string}
               - {label: Description, name: description, widget: text}
+          - label: Speakers
+            name: speakers
+            widget: list
+            fields:
+              - {label: 'First name', name: first-name, widget: string}
+              - {label: 'Last name', name: last-name, widget: string}
+              - {label: Description, name: description, widget: text}
+              - {label: Picture, name: picture, widget: image}

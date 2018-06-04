@@ -36,7 +36,7 @@ collections:
     files:
       - label: "Partners"
         name: "partners"
-        file: "_data/partner.yml"
+        file: "_data/partners.yml"
         fields:
           - label: Partner
             name: partner

@@ -19,7 +19,7 @@ collections:
         widget: "object"
         fields:
           - {label: "Theme title", name: "title", widget: "string"}
-          - {label: "Theme description", name: "description", widget: "string"}
+          - {label: "Theme description", name: "description", widget: "text"}
       - {label: "Banner", name: "banner", widget: "image"}
       - label: "Talks"
         name: "talks"
@@ -28,5 +28,21 @@ collections:
           - {label: "Speaker first name", name: speaker-first-name, widget: string}
           - {label: "Speaker last name", name: speaker-last-name, widget: string}
           - {label: "Talk title", name: title, widget: string}
-          - {label: "Talk description", name: description, widget: string}
+          - {label: "Talk description", name: description, widget: text}
           - {label: "YouTube ID", name: description, widget: string}
+
+  - label: "Data"
+  name: "data"
+  files:
+    - label: "Partners"
+      name: "partners"
+      file: "_data/partner.yml"
+      fields:
+        - label: Partner
+          name: partner
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Logo, name: logo, widget: image}
+            - {label: Website, name: website, widget: string}
+            - {label: Description, name: description, widget: text}

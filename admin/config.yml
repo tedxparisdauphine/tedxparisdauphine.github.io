@@ -32,17 +32,17 @@ collections:
           - {label: "YouTube ID", name: description, widget: string}
 
   - label: "Data"
-  name: "data"
-  files:
-    - label: "Partners"
-      name: "partners"
-      file: "_data/partner.yml"
-      fields:
-        - label: Partner
-          name: partner
-          widget: list
-          fields:
-            - {label: Name, name: name, widget: string}
-            - {label: Logo, name: logo, widget: image}
-            - {label: Website, name: website, widget: string}
-            - {label: Description, name: description, widget: text}
+    name: "data"
+    files:
+      - label: "Partners"
+        name: "partners"
+        file: "_data/partner.yml"
+        fields:
+          - label: Partner
+            name: partner
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Logo, name: logo, widget: image}
+              - {label: Website, name: website, widget: string}
+              - {label: Description, name: description, widget: text}

@@ -46,6 +46,10 @@ collections:
               - {label: Logo, name: logo, widget: image}
               - {label: Website, name: website, widget: string}
               - {label: Description, name: description, widget: text}
+      - label: "Speakers"
+        name: "speakers"
+        file: "_data/speakers.yml"
+        fields:
           - label: Speakers
             name: speakers
             widget: list

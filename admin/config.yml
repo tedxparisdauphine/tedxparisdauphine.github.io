@@ -4,6 +4,8 @@ backend:
 
 media_folder: "assets/img"
 
+display_url: https://tedxparisdauphine.com
+
 collections:
   - name: "videos" # Used in routes, e.g., /admin/collections/blog
     label: "Videos" # Used in the UI

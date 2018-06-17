@@ -76,7 +76,7 @@ collections:
     files:
       - label: Accueil
         name: accueil
-        file: _pages/home.html
+        file: "_pages/home.html"
         format: yaml-frontmatter
         extension: html
         fields:

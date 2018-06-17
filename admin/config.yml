@@ -80,6 +80,6 @@ collections:
         format: frontmatter
         extension: html
         fields:
-          - {label: "Ticket title", name: ticket-title, widget: string}
-          - {label: "Ticket subtitle", name: ticket-subtitle, widget: string}
+          - {label: "Ticket title", name: 'ticket-title', widget: 'string'}
+          - {label: "Ticket subtitle", name: 'ticket-subtitle', widget: 'string'}
           - {label: Body, name: body, widget: text}

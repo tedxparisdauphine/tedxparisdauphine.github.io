@@ -4,6 +4,8 @@ backend:
 
 media_folder: "assets/img"
 
+display_url: https://tedxparisdauphine.com
+
 collections:
   - name: "videos" # Used in routes, e.g., /admin/collections/blog
     label: "Videos" # Used in the UI
@@ -68,3 +70,16 @@ collections:
             fields:
               - {label: Year, name: year, widget: string}
               - {label: Members, name: members, widget: text}
+
+  - label: 'Pages'
+    name: pages
+    files:
+      - label: Accueil
+        name: accueil
+        file: "_pages/home.html"
+        format: frontmatter
+        extension: html
+        fields:
+          - {label: "Ticket title", name: 'ticket-title', widget: 'string'}
+          - {label: "Ticket subtitle", name: 'ticket-subtitle', widget: 'string'}
+          - {label: Body, name: body, widget: text}

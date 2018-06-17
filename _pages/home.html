@@ -1,4 +1,7 @@
 ---
+layout: default
+permalink: /
+                  
 ticket-title: Ticket title test
 ticket-subtitle: Ticket subtitle test
 ---
@@ -15,10 +18,8 @@ ticket-subtitle: Ticket subtitle test
                 <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
 
                     {% if site.selling %}
-                        <h1 class="mb16">TEDx revient à Dauphine <br><span class="bold">le 29 novembre</span> !</h1>
-                        <p class="lead home__subtitle-tickets">
-                            Prenez dès maintenant vos billets
-                        </p>
+                        <h1 class="mb16">{{ page.ticket-title }}</h1>
+                        <p class="lead home__subtitle-tickets">{{ page.ticket-subtitle }}</p>
                         <div class="row mb64 mb-xs-24">
                             <div class="col-sm-8 col-sm-offset-2">
                                 <a class="btn btn-lg btn-white home__btn-tickets home__btn-tickets-learn-more"

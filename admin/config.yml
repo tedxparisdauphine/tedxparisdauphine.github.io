@@ -78,6 +78,7 @@ collections:
         name: accueil
         file: _pages/home.html
         format: yaml-frontmatter
+        extension: html
         fields:
           - {label: "Ticket title", name: ticket-title, widget: string}
           - {label: "Ticket subtitle", name: ticket-subtitle, widget: string}

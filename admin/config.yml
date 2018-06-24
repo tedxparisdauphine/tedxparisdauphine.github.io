@@ -76,10 +76,8 @@ collections:
               - {label: "Image de couverture", name: cover-image, widget: image}
           - label: "Edition la plus récente"
             name: latest-edition
-            widget: relation
-            collection: videos
-            searchFields: ["year",]
-            valueField: "year"
+            widget: number
+            valueType: "int"
           - label: "Speakers"
             name: speakers
             widget: list

@@ -54,7 +54,7 @@ teams:
                         <img src="{{ page.team-picture }}" alt="equipe-tedx-dauphine">
                     </div>
 
-                    {% for team in site.data.teams.teams reversed %}
+                    {% for team in page.teams reversed %}
 
                     <h3 class="text-center mb8">{{ team.year }}</h3>
                     <p>{{ team.members }}</p>

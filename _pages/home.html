@@ -10,7 +10,7 @@ permalink: /
         <div class="background-image-holder">
             <img alt="image" class="background-image img-responsive"
                  src="
-                    {% if site.selling %}
+                    {% if site.data.selling %}
                         {{ page.ticketing.cover-image }}
                     {% else %}
                         {{ page.regular.cover-image }}
@@ -20,17 +20,17 @@ permalink: /
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
 
-                    {% if site.selling %}
+                    {% if site.data.selling %}
                         <h1 class="mb16">{{ page.ticketing.heading }}</h1>
                         <p class="lead home__subtitle-tickets">{{ page.ticketing.heading }}</p>
                         <div class="row mb64 mb-xs-24">
                             <div class="col-sm-8 col-sm-offset-2">
                                 <a class="btn btn-lg btn-white home__btn-tickets home__btn-tickets-learn-more"
-                                   href="{{ site.fb-event-url }}" target="_blank">
+                                   href="{{ site.data.fb-event-url }}" target="_blank">
                                     <i class="ti-info" aria-hidden="true"></i>&nbsp;En savoir plus
                                 </a>
                                 <a class="btn btn-lg btn-red home__btn-tickets"
-                                   href="{{ site.ticketing-url }}" target="_blank">
+                                   href="{{ site.data.ticketing-url }}" target="_blank">
                                     <i class="ti-ticket" aria-hidden="true"></i>&nbsp;Acheter ma place
                                 </a>
                             </div>

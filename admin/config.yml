@@ -1,10 +1,10 @@
 backend:
   name: git-gateway
-  branch: improve-cms
+  branch: implement-cms
 
 media_folder: "assets/images/uploads"
 
-display_url: https://tedxparisdauphine.com
+display_url: "https://tedxparisdauphine.com"
 
 collections:
 
@@ -17,10 +17,10 @@ collections:
         name: "options"
         file: "_data/options.yml"
         fields:
-          - {label: "URL de la page Facebook", name: facebook-url, widget: string}
-          - {label: "URL de la billeterie", name: ticketing-url, widget: string}
-          - {label: "Billeterie ouverte", name: selling, widget: "boolean", default: false}
-          - {label: "URL de l'événement Facebook", name: fb-event-url, widget: string}
+          - {label: "URL de la page Facebook", name: "facebook-url", widget: "string"}
+          - {label: "URL de la billeterie", name: "ticketing-url", widget: "string"}
+          - {label: "Billeterie ouverte", name: "selling", widget: "boolean", default: "false"}
+          - {label: "URL de l'événement Facebook", name: "fb-event-url", widget: "string"}
 
   - label: "Vidéos"
     name: "videos"
@@ -30,89 +30,83 @@ collections:
     editor:
          preview: false
     fields:
-      - {label: "Année", name: year, widget: string}
-      - {label: "Image de couverture", name: image, widget: image}
+      - {label: "Année", name: "year", widget: "string"}
+      - {label: "Image de couverture", name: "image", widget: "image"}
       - label: "Thème"
-        name: theme
+        name: "theme"
         widget: "object"
         fields:
-          - {label: "Titre", name: title, widget: string}
-          - {label: "Description", name: description, widget: text}
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
       - label: "Talks"
-        name: talks
-        widget: list
+        name: "talks"
+        widget: "list"
         fields:
-          - {label: "Prénom du speaker", name: speaker-first-name, widget: string}
-          - {label: "Nom du speaker", name: speaker-last-name, widget: string}
-          - {label: "Titre du talk", name: title, widget: string}
-          - {label: "Description", name: description, widget: text}
-          - {label: "YouTube video ID", name: youtube-id, widget: string}
+          - {label: "Prénom du speaker", name: "speaker-first-name", widget: "string"}
+          - {label: "Nom du speaker", name: "speaker-last-name", widget: "string"}
+          - {label: "Titre du talk", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "YouTube video ID", name: "youtube-id", widget: "string"}
 
   - label: 'Pages'
-    name: pages
+    name: "pages"
     editor:
          preview: false
     files:
 
       - label: "Accueil"
-        name: accueil
+        name: "accueil"
         file: "_pages/home.html"
-        format: yaml-frontmatter
-        extension: html
         fields:
           - label: "Normal"
-            name: regular
-            widget: object
+            name: "regular"
+            widget: "object"
             fields:
-              - {label: "Titre", name: heading, widget: string}
-              - {label: "Sous-titre", name: subheading, widget: string}
-              - {label: "Image de couverture", name: cover-image, widget: image}
+              - {label: "Titre", name: "heading", widget: "string"}
+              - {label: "Sous-titre", name: "subheading", widget: "string"}
+              - {label: "Image de couverture", name: "cover-image", widget: "image"}
           - label: "Billeterie ouverte"
-            name: ticketing
-            widget: object
+            name: "ticketing"
+            widget: "object"
             fields:
-              - {label: "Titre", name: heading, widget: string}
-              - {label: "Sous-titre", name: subheading, widget: string}
-              - {label: "Image de couverture", name: cover-image, widget: image}
+              - {label: "Titre", name: "heading", widget: "string"}
+              - {label: "Sous-titre", name: "subheading", widget: "string"}
+              - {label: "Image de couverture", name: "cover-image", widget: "image"}
           - label: "Edition la plus récente"
-            name: latest-edition
-            widget: number
+            name: "latest-edition"
+            widget: "number"
             valueType: "int"
           - label: "Speakers"
-            name: speakers
-            widget: list
+            name: "speakers"
+            widget: "list"
             fields:
-              - {label: "Prénom", name: first-name, widget: string}
-              - {label: "Nom", name: last-name, widget: string}
-              - {label: "Description du speaker", name: description, widget: text}
-              - {label: "Photo du speaker", name: picture, widget: image}
+              - {label: "Prénom", name: "first-name", widget: "string"}
+              - {label: "Nom", name: "last-name", widget: "string"}
+              - {label: "Description du speaker", name: "description", widget: "text"}
+              - {label: "Photo du speaker", name: "picture", widget: "image"}
 
       - label: "Partenaires"
-        name: partners
+        name: "partners"
         file: "_pages/partners.html"
-        format: yaml-frontmatter
-        extension: html
         fields:
-          - label: Partenaire
-            name: partners
-            widget: list
+          - label: "Partenaire"
+            name: "partners"
+            widget: "list"
             fields:
-              - {label: "Nom", name: name, widget: string}
-              - {label: "Logo", name: logo, widget: image}
-              - {label: "Website", name: website, widget: string}
-              - {label: "Description", name: description, widget: text}
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Logo", name: "logo", widget: "image"}
+              - {label: "Website", name: "website", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
 
       - label: "L'association"
-        name: association
+        name: "association"
         file: "_pages/association.html"
-        format: yaml-frontmatter
-        extension: html
         fields:
-          - {label: "Description de l'association", name: association-description, widget: text}
-          - {label: "Photo de l'équipe", name: team-picture, widget: image}
+          - {label: "Description de l'association", name: "association-description", widget: "text"}
+          - {label: "Photo de l'équipe", name: "team-picture", widget: "image"}
           - label: "Equipe"
-            name: teams
-            widget: list
+            name: "teams"
+            widget: "list"
             fields:
-              - {label: "Année", name: year, widget: string}
-              - {label: "Membres", name: members, widget: text}
+              - {label: "Année", name: "year", widget: "string"}
+              - {label: "Membres", name: "members", widget: "text"}

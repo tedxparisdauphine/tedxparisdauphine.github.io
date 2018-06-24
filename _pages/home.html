@@ -1,4 +1,6 @@
 ---
+layout: default
+permalink: /
 regular:
   cover-image: /assets/images/uploads/tedx-dauphine-home-background.jpg
   heading: Ne manquez pas nos prochains événements !
@@ -25,4 +27,138 @@ speakers:
     last-name: De Hody
     picture: /assets/images/uploads/christophe-de-hody-tedx-dauphine.png
 ---
+<div class="main-container">
 
+    <section class="cover fullscreen overlay">
+        <div class="background-image-holder">
+            <img alt="image" class="background-image img-responsive"
+                 src="
+                    {% if site.data.options.selling %}
+                        {{ page.ticketing.cover-image }}
+                    {% else %}
+                        {{ page.regular.cover-image }}
+                    {% endif %}">
+        </div>
+        <div class="container v-align-transform">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+
+                    {% if site.data.options.selling %}
+                    <h1 class="mb16">{{ page.ticketing.heading }}</h1>
+                    <p class="lead home__subtitle-tickets">{{ page.ticketing.heading }}</p>
+                    <div class="row mb64 mb-xs-24">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <a class="btn btn-lg btn-white home__btn-tickets home__btn-tickets-learn-more"
+                               href="{{ site.data.options.fb-event-url }}" target="_blank">
+                                <i class="ti-info" aria-hidden="true"></i>&nbsp;En savoir plus
+                            </a>
+                            <a class="btn btn-lg btn-red home__btn-tickets"
+                               href="{{ site.data.options.ticketing-url }}" target="_blank">
+                                <i class="ti-ticket" aria-hidden="true"></i>&nbsp;Acheter ma place
+                            </a>
+                        </div>
+                    </div>
+                    {% else %}
+                    <h1 class="mb16">{{ page.regular.heading }}</h1>
+                    <p class="lead home__subtitle">
+                        {{ page.regular.subheading }}
+                    </p>
+                    <div class="row mb80 mb-xs-24">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            {% include mailchimp-form.html %}
+                        </div>
+                    </div>
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="background-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 text-center">
+                    <h2 class="mb64">Découvrez les vidéos de l'édition {{latest-edition}}</h2>
+                    <a class="btn btn-lg btn-red mb0 home__btn-talks" href="/videos/edition-{{latest-edition}}">&gt; Talks de
+                        l'édition {{latest-edition}}</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb64 pb-xs-40">
+
+        <div class="container">
+
+            <div class="row mb80 mb-s-0">
+                <div class="col-sm-10 col-sm-offset-1 text-center">
+                    <h2>Ils ont participé à l'édition {{latest-edition}} : </h2>
+                </div>
+            </div>
+
+            {% for speaker in page.speakers %}
+
+            {% cycle '<div class="row">', blank, blank %}
+
+            <div class="col-sm-4 mb56">
+                <div class="feature feature-2 filled text-center">
+                    <div class="text-center">
+                        <a href="/videos/edition-{{latest-edition}}/#{{ speaker.first-name | slugify }}-{{ speaker.last-name | slugify }}">
+                            <img class="mb24" src="{{ speaker.picture }}"
+                                 alt="{{ speaker.first-name | slugify }}-{{ speaker.last-name | slugify }}-tedx-dauphine">
+                            <h3>
+                                {{ speaker.first-name }} <span class="speaker-last-name">{{ speaker.last-name }}</span>
+                                {% if speaker.second-first-name %}
+                                & {{ speaker.second-first-name }} <span class="speaker-last-name">{{ speaker.second-last-name }}</span>
+                                {% endif %}
+                            </h3>
+                        </a>
+                    </div>
+                    <p class="text-justify">
+                        {{ speaker.description }}
+                    </p>
+                    <p class="mt0">
+                        <a href="/videos/edition-2017/#{{ speaker.first-name | slugify }}-{{ speaker.last-name | slugify }}"
+                           class="home__btn-watch-talk btn btn-red">
+                            Regarder le talk
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            {% cycle blank, blank, '</div>' %}
+
+            {% endfor %}
+            {% cycle blank, '</div>', '</div>' %}
+
+</div>
+
+</section>
+
+<section class="background-red">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 text-center mb24 p-mobile">
+                <h3 class="home__what-is-title mb20 mb-xs-24">What is TEDx?</h3>
+                <p class="home__what-is-text text-justify">
+                    In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program
+                    of local, self-organized events that bring people together to share a TED-like experience. Our
+                    event is called <strong>TEDxUniversitéParisDauphine</strong>, where x = independently organized
+                    TED event. At our <strong>TEDxUniversitéParisDauphine</strong> event, TEDTalks video and live
+                    speakers will combine to spark deep discussion and connection in a small group. The TED
+                    Conference provides general guidance for the TEDx program, but individual TEDx events, including
+                    ours, are self-organized.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <a class="btn btn-lg btn-white mb0"
+                       href="https://www.ted.com/about/programs-initiatives/tedx-program" target="_blank">TEDx</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>

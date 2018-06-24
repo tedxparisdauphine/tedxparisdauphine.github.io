@@ -32,12 +32,7 @@ speakers:
     <section class="cover fullscreen overlay">
         <div class="background-image-holder">
             <img alt="image" class="background-image img-responsive"
-                 src="
-                    {% if site.data.options.selling %}
-                        {{ page.ticketing.cover-image }}
-                    {% else %}
-                        {{ page.regular.cover-image }}
-                    {% endif %}">
+                 src="{% if site.data.options.selling %}{{ page.ticketing.cover-image }}{% else %}{{ page.regular.cover-image }}{% endif %}">
         </div>
         <div class="container v-align-transform">
             <div class="row">
@@ -79,9 +74,9 @@ speakers:
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 text-center">
-                    <h2 class="mb64">Découvrez les vidéos de l'édition {{latest-edition}}</h2>
-                    <a class="btn btn-lg btn-red mb0 home__btn-talks" href="/videos/edition-{{latest-edition}}">&gt; Talks de
-                        l'édition {{latest-edition}}</a>
+                    <h2 class="mb64">Découvrez les vidéos de l'édition {{ page.latest-edition }}</h2>
+                    <a class="btn btn-lg btn-red mb0 home__btn-talks" href="/videos/edition-{{ page.latest-edition }}">&gt; Talks de
+                        l'édition {{ page.latest-edition }}</a>
                 </div>
             </div>
         </div>
@@ -93,7 +88,7 @@ speakers:
 
             <div class="row mb80 mb-s-0">
                 <div class="col-sm-10 col-sm-offset-1 text-center">
-                    <h2>Ils ont participé à l'édition {{latest-edition}} : </h2>
+                    <h2>Ils ont participé à l'édition {{ page.latest-edition }} : </h2>
                 </div>
             </div>
 

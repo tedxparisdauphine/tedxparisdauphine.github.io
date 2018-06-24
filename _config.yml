@@ -3,9 +3,10 @@ url: http://tedxparisdauphine.com
 title: TEDx Université Paris-Dauphine - Conférences TEDx à l'université Paris-Dauphine
 description: >
   TEDx Université Paris-Dauphine est une association dont l'objectif est d’organiser des conférences de façon indépendante sous licence TED afin de favoriser la diffusion d’idées au sein de l'Université Paris-Dauphine.
-image: /assets/img/tedx-dauphine-home-background.jpg
+image: /assets/images/tedx-dauphine-home-background.jpg
 selling: false
 ticketing-url: https://www.weezevent.com/tedx-universite-paris-dauphine-2017-envie
+fb-event-url: https://www.facebook.com/events/1981742498750762/
 
 collections:
   videos:

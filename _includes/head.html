@@ -1,14 +1,22 @@
 <head>
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>
+        {% if page.year %}
+            Vidéos de l'édition {{ page.year }} - TEDx Université Paris-Dauphine
+        {% elsif page.title %}
+            {{ page.title }} - TEDx Université Paris-Dauphine
+        {% else %}
+            {{ site.title }}
+        {% endif %}
+    </title>
     <meta
             name="description"
-            content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+            content="{% if page.year %}Découvrez les talks de l'édition {{ page.year }} de TEDx Université Paris-Dauphine en vidéos{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
     <!-- Open Graph -->
     <meta property="og:url"                content="{{ site.url }}{{ page.url }}">
-    <meta property="og:title"              content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:description"        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:title"              content="{% if page.year %}Vidéos de l'édition {{ page.year }} - TEDx Université Paris-Dauphine{% elsif page.title %}{{ page.title }} - TEDx Université Paris-Dauphine{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description"        content="{% if page.description %}{{ page.description }}{% elsif page.year %}Découvrez les talks de l'édition {{ page.year }} de TEDx Université Paris-Dauphine en vidéos{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image"              content="{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
     <meta property="og:type"               content="website">
     <meta property="og:locale"             content="fr_FR">
@@ -22,7 +30,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600'>
 
-    <link rel="icon" href="/assets/img/favicon.ico">
+    <link rel="icon" href="/assets/images/favicon.ico">
 
     <!-- Google Analytics -->
     {% include google-analytics.html %}

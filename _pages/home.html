@@ -1,11 +1,6 @@
 ---
 layout: default
 permalink: /
-
-ticket-title: TEDx revient à Dauphine le 29 novembre
-ticket-subtitle: Prenez dès maintenant vos billets
-description: >
-    Test
 ---
 
 <div class="main-container">
@@ -13,31 +8,36 @@ description: >
     <section class="cover fullscreen overlay">
         <div class="background-image-holder">
             <img alt="image" class="background-image img-responsive"
-                 src="/assets/img/tedx-dauphine-home-background.jpg">
+                 src="
+                    {% if site.selling %}
+                        {{ page.ticketing.cover-image }}
+                    {% else %}
+                        {{ page.regular.cover-image }}
+                    {% endif %}">
         </div>
         <div class="container v-align-transform">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
 
                     {% if site.selling %}
-                        <h1 class="mb16">{{ page.ticket-title }}</h1>
-                        <p class="lead home__subtitle-tickets">{{ page.ticket-subtitle }}</p>
+                        <h1 class="mb16">{{ page.ticketing.heading }}</h1>
+                        <p class="lead home__subtitle-tickets">{{ page.ticketing.heading }}</p>
                         <div class="row mb64 mb-xs-24">
                             <div class="col-sm-8 col-sm-offset-2">
                                 <a class="btn btn-lg btn-white home__btn-tickets home__btn-tickets-learn-more"
-                                   href="https://www.facebook.com/events/1981742498750762/" target="_blank">
+                                   href="{{ site.fb-event-url }}" target="_blank">
                                     <i class="ti-info" aria-hidden="true"></i>&nbsp;En savoir plus
                                 </a>
                                 <a class="btn btn-lg btn-red home__btn-tickets"
-                                   href="https://www.weezevent.com/tedx-universite-paris-dauphine-2017-envie" target="_blank">
+                                   href="{{ site.ticketing-url }}" target="_blank">
                                     <i class="ti-ticket" aria-hidden="true"></i>&nbsp;Acheter ma place
                                 </a>
                             </div>
                         </div>
                     {% else %}
-                        <h1 class="mb16">Ne manquez pas nos prochains événements !</h1>
+                        <h1 class="mb16">{{ page.regular.heading }}</h1>
                         <p class="lead home__subtitle">
-                            Inscrivez-vous pour être tenu au courant
+                            {{ page.regular.subheading }}
                         </p>
                         <div class="row mb80 mb-xs-24">
                             <div class="col-sm-8 col-sm-offset-2">
@@ -55,8 +55,8 @@ description: >
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 text-center">
-                    <h2 class="mb64">Découvrez les vidéos de l'édition 2017</h2>
-                    <a class="btn btn-lg btn-red mb0 home__btn-talks" href="/videos/edition-2017">&gt; Talks de
+                    <h2 class="mb64">Découvrez les vidéos de l'édition {{latest-edition}}</h2>
+                    <a class="btn btn-lg btn-red mb0 home__btn-talks" href="/videos/edition-{{latest-edition}}">&gt; Talks de
                         l'édition 2017</a>
                 </div>
             </div>
@@ -69,18 +69,18 @@ description: >
 
             <div class="row mb80 mb-s-0">
                 <div class="col-sm-10 col-sm-offset-1 text-center">
-                    <h2>Ils ont participé à l'édition 2017 : </h2>
+                    <h2>Ils ont participé à l'édition {{latest-edition}} : </h2>
                 </div>
             </div>
 
-            {% for speaker in site.data.speakers.speakers %}
+            {% for speaker in page.speakers %}
 
                 {% cycle '<div class="row">', blank, blank %}
 
                     <div class="col-sm-4 mb56">
                         <div class="feature feature-2 filled text-center">
                             <div class="text-center">
-                                <a href="/videos/edition-2017/#{{ speaker.first-name | slugify }}-{{ speaker.last-name | slugify }}">
+                                <a href="/videos/edition-{{latest-edition}}/#{{ speaker.first-name | slugify }}-{{ speaker.last-name | slugify }}">
                                     <img class="mb24" src="{{ speaker.picture }}"
                                          alt="{{ speaker.first-name | slugify }}-{{ speaker.last-name | slugify }}-tedx-dauphine">
                                     <h3>

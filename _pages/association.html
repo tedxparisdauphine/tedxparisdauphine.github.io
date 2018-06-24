@@ -2,8 +2,20 @@
 layout: default
 permalink: /association/
 
-title: L'association - TEDx Université Paris Dauphine
+title: L'association
 description: Découvrez l'association TEDx Université Paris-Dauphine.
+
+teams:
+  - year: 2015
+    members: Alexandre Divet, Alexandre Gorius, Pierre Meric, Chloé Benayoun, Sandie Fournez, Eliott Castille, Tom Boucard, Estelle Coffinet, Jeanne Villalonga
+
+  - year: 2016
+    members: Eliott Castille,  Alexandre Gorius, Alix	Galinier, Caroline Martin, Céline Gerard, Chloé Benayoun, Clément Crémon, Daphne	Angelè, Gaspard	Chameroy, Guillaume	Rossignol, Guillaume Bélie, Hélène Malarmey, Irène	Guellec, Ismaïl	Ziazni, Morgan	Arokion, Sandie Fournez, Thibaud Martinez, Tom	Boucard, Valentine	Rey
+
+  - year: 2017
+    members: Alix Galinier, Daphne Angelè, Céline Gerard, Laura Lindegaard, Valentine Rey, Garance Barbier, Valentine Pensalfini, Léa Jerbillet, Zyanya Delli, Ismaïl Ziazni, Wassila El Menan, Camille Hervio, Chloé Bender, Claire Anain, Justine Taillebois, Maximilien Doussaint, Aurélie Bergeras, Thibaud Martinez
+
+
 ---
 
 <div class="main-container">
@@ -29,10 +41,10 @@ description: Découvrez l'association TEDx Université Paris-Dauphine.
                 <div class="col-sm-8 col-sm-offset-2">
                     <h2 class="text-center">L'équipe</h2>
                     <div class="text-center mb48">
-                        <img src="/assets/img/equipe-tedx-dauphine.jpg" alt="equipe-tedx-dauphine">
+                        <img src="/assets/images/uploads/equipe-tedx-dauphine.jpg" alt="equipe-tedx-dauphine">
                     </div>
 
-                    {% for team in site.data.teams.teams reversed %}
+                    {% for team in page.teams reversed %}
 
                         <h3 class="text-center mb8">{{ team.year }}</h3>
                         <p>{{ team.members }}</p>

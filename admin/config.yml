@@ -2,85 +2,116 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "assets/img"
+media_folder: "assets/images/uploads"
 
 display_url: https://tedxparisdauphine.com
 
 collections:
-  - name: "videos" # Used in routes, e.g., /admin/collections/blog
-    label: "Videos" # Used in the UI
-    folder: "_videos" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Social media image", name: "image", widget: "image"}
-      - label: "Theme"
-        name: "theme"
+
+  - label: "General"
+    name: "general"
+    editor:
+         preview: false
+    files:
+      - label: "Configuration"
+        name: "config"
+        file: "_config.yml"
+        fields:
+          - {label: "URL billeterie", name: ticketing-url, widget: string}
+          - {label: "Billeterie ouverte", name: selling, widget: "boolean", default: false}
+          - {label: "URL de l'événement Facebook", name: fb-event-url, widget: string}
+
+  - label: "Vidéos"
+    name: "videos"
+    folder: "_videos"
+    create: true
+    slug: "{{year}}"
+    editor:
+         preview: false
+    fields:
+      - {label: "Année", name: year, widget: string}
+      - {label: "Image de couverture", name: image, widget: image}
+      - label: "Thème"
+        name: theme
         widget: "object"
         fields:
-          - {label: "Theme title", name: "title", widget: "string"}
-          - {label: "Theme description", name: "description", widget: "text"}
-      - {label: "Banner", name: "banner", widget: "image"}
+          - {label: "Titre", name: title, widget: string}
+          - {label: "Description", name: description, widget: text}
       - label: "Talks"
-        name: "talks"
-        widget: "list"
+        name: talks
+        widget: list
         fields:
-          - {label: "Speaker first name", name: speaker-first-name, widget: string}
-          - {label: "Speaker last name", name: speaker-last-name, widget: string}
-          - {label: "Talk title", name: title, widget: string}
-          - {label: "Talk description", name: description, widget: text}
-          - {label: "YouTube ID", name: description, widget: youtube-id}
-
-  - label: "Data"
-    name: "data"
-    files:
-      - label: "Partners"
-        name: "partners"
-        file: "_data/partners.yml"
-        fields:
-          - label: Partners
-            name: partners
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Logo, name: logo, widget: image}
-              - {label: Website, name: website, widget: string}
-              - {label: Description, name: description, widget: text}
-      - label: "Speakers"
-        name: "speakers"
-        file: "_data/speakers.yml"
-        fields:
-          - label: Speakers
-            name: speakers
-            widget: list
-            fields:
-              - {label: 'First name', name: first-name, widget: string}
-              - {label: 'Last name', name: last-name, widget: string}
-              - {label: Description, name: description, widget: text}
-              - {label: Picture, name: picture, widget: image}
-      - label: "Teams"
-        name: "teams"
-        file: "_data/teams.yml"
-        fields:
-          - label: Teams
-            name: teams
-            widget: list
-            fields:
-              - {label: Year, name: year, widget: string}
-              - {label: Members, name: members, widget: text}
+          - {label: "Prénom du speaker", name: speaker-first-name, widget: string}
+          - {label: "Nom du speaker", name: speaker-last-name, widget: string}
+          - {label: "Titre du talk", name: title, widget: string}
+          - {label: "Description", name: description, widget: text}
+          - {label: "YouTube video ID", name: youtube-id, widget: string}
 
   - label: 'Pages'
     name: pages
+    editor:
+         preview: false
     files:
-      - label: Accueil
+
+      - label: "Accueil"
         name: accueil
         file: "_pages/home.html"
-        format: frontmatter
+        format: yaml-frontmatter
         extension: html
         fields:
-          - {label: "Ticket title", name: 'ticket-title', widget: 'string'}
-          - {label: "Ticket subtitle", name: 'ticket-subtitle', widget: 'string'}
-          - {label: "Description", name: 'description', widget: 'string'}
-          - {label: Body, name: body, widget: text}
+          - label: "Normal"
+            name: regular
+            widget: object
+            fields:
+              - {label: "Titre", name: heading, widget: string}
+              - {label: "Sous-titre", name: subheading, widget: string}
+              - {label: "Image de couverture", name: cover-image, widget: image}
+          - label: "Billeterie ouverte"
+            name: ticketing
+            widget: object
+            fields:
+              - {label: "Titre", name: heading, widget: string}
+              - {label: "Sous-titre", name: subheading, widget: string}
+              - {label: "Image de couverture", name: cover-image, widget: image}
+          - label: "Edition la plus récente"
+            name: latest-edition
+            widget: date
+            format: "YYYY"
+          - label: "Speakers"
+            name: speakers
+            widget: list
+            fields:
+              - {label: "Prénom", name: first-name, widget: string}
+              - {label: "Nom", name: last-name, widget: string}
+              - {label: "Description du speaker", name: description, widget: text}
+              - {label: "Photo du speaker", name: picture, widget: image}
+
+      - label: "Partenaires"
+        name: partners
+        file: "_pages/partners.html"
+        format: yaml-frontmatter
+        extension: html
+        fields:
+          - label: Partenaire
+            name: partners
+            widget: list
+            fields:
+              - {label: "Nom", name: name, widget: string}
+              - {label: "Logo", name: logo, widget: image}
+              - {label: "Website", name: website, widget: string}
+              - {label: "Description", name: description, widget: text}
+
+      - label: "L'association"
+        name: association
+        file: "_pages/association.html"
+        file: yaml-frontmatter
+        extension: html
+        fields:
+          - {label: "Description de l'association", name: association-description, widget: text}
+          - {label: "Photo de l'équipe", name: team-picture, widget: image}
+          - label: "Equipe"
+            name: teams
+            widget: list
+            fields:
+              - {label: "Année", name: year, widget: string}
+              - {label: "Membres", name: members, widget: text}

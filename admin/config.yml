@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: improve-cms
 
 media_folder: "assets/images/uploads"
 

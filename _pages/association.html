@@ -1,58 +1,39 @@
 ---
-layout: default
-permalink: /association/
+association-description: >-
+  <p class="text-justify"><strong>TEDx Université Paris-Dauphine</strong> est
+  une association loi 1901 dont l'objectif est d’organiser des conférences de
+  façon indépendante sous licence TED afin de favoriser le partage et la
+  diffusion d’idées au sein de l'<strong>Université Paris-Dauphine</strong>.
+  </p>
 
-title: L'association
-description: Découvrez l'association TEDx Université Paris-Dauphine.
 
+  <p class="text-justify">L’association TEDx Université Paris-Dauphine a
+  organisé sa première conférence sur la thématique : <strong>« Dans les règles
+  de l’art »</strong>, le jeudi 4 juin 2015. Les intervenants étaient :
+  <strong>Marie-Sophie Ahmadi, Christian Blanckaert, Kammel Menour,
+  Pierre-Etienne Bost, Paul Benoit, Stéphane Dufossé et Olivier
+  Roller</strong>.</p>
+
+
+  <p>La seconde conférence TEDx Université Paris-Dauphine a eu lieu le 25
+  novembre 2016. <strong>Emmanuelle Garault, Alexandre Stachtchenko, Héloïse
+  Nio, Inken Dechow, Dominique Retoux, Mehdi Dutheil, Xavier Gorce et Aude
+  Baron</strong> ont donné des talks autour du thème <strong>« Rien de bien
+  méchant »</strong>.</p>
+team-picture: /assets/images/uploads/equipe-tedx-dauphine.jpg
 teams:
-  - year: 2015
-    members: Alexandre Divet, Alexandre Gorius, Pierre Meric, Chloé Benayoun, Sandie Fournez, Eliott Castille, Tom Boucard, Estelle Coffinet, Jeanne Villalonga
-
-  - year: 2016
-    members: Eliott Castille,  Alexandre Gorius, Alix	Galinier, Caroline Martin, Céline Gerard, Chloé Benayoun, Clément Crémon, Daphne	Angelè, Gaspard	Chameroy, Guillaume	Rossignol, Guillaume Bélie, Hélène Malarmey, Irène	Guellec, Ismaïl	Ziazni, Morgan	Arokion, Sandie Fournez, Thibaud Martinez, Tom	Boucard, Valentine	Rey
-
-  - year: 2017
-    members: Alix Galinier, Daphne Angelè, Céline Gerard, Laura Lindegaard, Valentine Rey, Garance Barbier, Valentine Pensalfini, Léa Jerbillet, Zyanya Delli, Ismaïl Ziazni, Wassila El Menan, Camille Hervio, Chloé Bender, Claire Anain, Justine Taillebois, Maximilien Doussaint, Aurélie Bergeras, Thibaud Martinez
-
-
+  - members: >-
+      Alexandre Divet, Alexandre Gorius, Pierre Meric, Chloé Benayoun, Sandie
+      Fournez, Eliott Castille, Tom Boucard, Estelle Coffinet, Jeanne Villalonga
+    year: 2015
+  - members: "Eliott Castille,  Alexandre Gorius, Alix\tGalinier, Caroline Martin, Céline Gerard, Chloé Benayoun, Clément Crémon, Daphne\tAngelè, Gaspard\tChameroy, Guillaume\tRossignol, Guillaume Bélie, Hélène Malarmey, Irène\tGuellec, Ismaïl\tZiazni, Morgan\tArokion, Sandie Fournez, Thibaud Martinez, Tom\tBoucard, Valentine\tRey"
+    year: 2016
+  - members: >-
+      Alix Galinier, Daphne Angelè, Céline Gerard, Laura Lindegaard, Valentine
+      Rey, Garance Barbier, Valentine Pensalfini, Léa Jerbillet, Zyanya Delli,
+      Ismaïl Ziazni, Wassila El Menan, Camille Hervio, Chloé Bender, Claire
+      Anain, Justine Taillebois, Maximilien Doussaint, Aurélie Bergeras, Thibaud
+      Martinez
+    year: 2017
 ---
 
-<div class="main-container">
-    <section>
-        <div class="container">
-            <h1 class="medium-heading">L'association</h1>
-            <div class="row mb32">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <p class="text-justify"><strong>TEDx Université Paris-Dauphine</strong> est une association loi 1901
-                        dont l'objectif est d’organiser des conférences de façon indépendante sous licence TED afin de
-                        favoriser le partage et la diffusion d’idées au sein de l'<strong>Université Paris-Dauphine</strong>.
-                    </p>
-                    <p class="text-justify">L’association TEDx Université Paris-Dauphine a organisé sa première conférence
-                        sur la thématique : <strong>« Dans les règles de l’art »</strong>, le jeudi 4 juin 2015. Les
-                        intervenants étaient : <strong>Marie-Sophie Ahmadi, Christian Blanckaert, Kammel Menour,
-                            Pierre-Etienne Bost, Paul Benoit, Stéphane Dufossé et Olivier Roller</strong>.</p>
-                    <p>La seconde conférence TEDx Université Paris-Dauphine a eu lieu le 25 novembre 2016. <strong>Emmanuelle Garault,
-                        Alexandre Stachtchenko, Héloïse Nio, Inken Dechow, Dominique Retoux, Mehdi Dutheil, Xavier Gorce et Aude Baron</strong>
-                        ont donné des talks autour du thème <strong>« Rien de bien méchant »</strong>.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <h2 class="text-center">L'équipe</h2>
-                    <div class="text-center mb48">
-                        <img src="/assets/images/uploads/equipe-tedx-dauphine.jpg" alt="equipe-tedx-dauphine">
-                    </div>
-
-                    {% for team in page.teams reversed %}
-
-                        <h3 class="text-center mb8">{{ team.year }}</h3>
-                        <p>{{ team.members }}</p>
-
-                    {% endfor %}
-
-                </div>
-            </div>
-        </div>
-    </section>
-</div>

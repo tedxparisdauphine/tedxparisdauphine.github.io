@@ -17,7 +17,8 @@ collections:
         name: "options"
         file: "_data/options.yml"
         fields:
-          - {label: "URL billeterie", name: ticketing-url, widget: string}
+          - {label: "URL de la page Facebook", name: facebook-url, widget: string}
+          - {label: "URL de la billeterie", name: ticketing-url, widget: string}
           - {label: "Billeterie ouverte", name: selling, widget: "boolean", default: false}
           - {label: "URL de l'événement Facebook", name: fb-event-url, widget: string}
 

@@ -44,8 +44,8 @@ speakers:
                 <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
 
                     {% if site.data.options.selling %}
-                    <h1 class="mb16">{{ page.ticketing.heading }}</h1>
-                    <p class="lead home__subtitle-tickets">{{ page.ticketing.heading }}</p>
+                    <h1 class="mb16">{{ page.ticketing.heading | markdownify }}</h1>
+                    <p class="lead home__subtitle-tickets">{{ page.ticketing.heading | markdownify }}</p>
                     <div class="row mb64 mb-xs-24">
                         <div class="col-sm-8 col-sm-offset-2">
                             <a class="btn btn-lg btn-white home__btn-tickets home__btn-tickets-learn-more"
@@ -59,9 +59,9 @@ speakers:
                         </div>
                     </div>
                     {% else %}
-                    <h1 class="mb16">{{ page.regular.heading }}</h1>
+                    <h1 class="mb16">{{ page.regular.heading | markdownify }}</h1>
                     <p class="lead home__subtitle">
-                        {{ page.regular.subheading }}
+                        {{ page.regular.subheading | markdownify }}
                     </p>
                     <div class="row mb80 mb-xs-24">
                         <div class="col-sm-8 col-sm-offset-2">

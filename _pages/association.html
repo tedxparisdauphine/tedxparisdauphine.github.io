@@ -1,4 +1,8 @@
 ---
+layout: default
+permalink: /association/
+title: L'association
+description: Découvrez l'association TEDx Université Paris-Dauphine.
 association-description: >-
   <p class="text-justify"><strong>TEDx Université Paris-Dauphine</strong> est
   une association loi 1901 dont l'objectif est d’organiser des conférences de
@@ -36,4 +40,31 @@ teams:
       Martinez
     year: 2017
 ---
+<div class="main-container">
+    <section>
+        <div class="container">
+            <h1 class="medium-heading">L'association</h1>
+            <div class="row mb32">
+                <div class="col-sm-8 col-sm-offset-2">
+                    {{ page.association-description }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2 class="text-center">L'équipe</h2>
+                    <div class="text-center mb48">
+                        <img src="{{ page.team-picture }}" alt="equipe-tedx-dauphine">
+                    </div>
 
+                    {% for team in site.data.teams.teams reversed %}
+
+                    <h3 class="text-center mb8">{{ team.year }}</h3>
+                    <p>{{ team.members }}</p>
+
+                    {% endfor %}
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

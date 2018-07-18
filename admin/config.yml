@@ -85,14 +85,14 @@ collections:
             fields:
               - {label: "Titre", name: heading, widget: string}
               - {label: "Sous-titre", name: subheading, widget: string}
-              - {label: "Image de couverture", name: cover-image, widget: image}
+              - {label: "Image de couverture (2100 x 750 px)", name: cover-image, widget: image}
           - label: "Billeterie ouverte"
             name: ticketing
             widget: object
             fields:
               - {label: "Titre", name: heading, widget: string}
               - {label: "Sous-titre", name: subheading, widget: string}
-              - {label: "Image de couverture", name: cover-image, widget: image}
+              - {label: "Image de couverture (2100 x 750 px)", name: cover-image, widget: image}
           - label: "Edition la plus récente"
             name: latest-edition
             widget: number

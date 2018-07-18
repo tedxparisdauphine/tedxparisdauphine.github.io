@@ -47,8 +47,7 @@ collections:
     fields:
       - label: "Année"
         name: year
-        widget: number
-        valueType: "int"
+        widget: string
         pattern: ["\\d{4}", "Doit être de la forme AAAA"]
         default: 2018
       - {label: "Image de couverture (2100 x 250 px)", name: image, widget: image}
@@ -65,7 +64,7 @@ collections:
           - {label: "Prénom du speaker", name: speaker-first-name, widget: string}
           - {label: "Nom du speaker", name: speaker-last-name, widget: string}
           - {label: "Titre du talk", name: title, widget: string}
-          - {label: "Description", name: description, widget: text}
+          - {label: "Description", name: description, widget: mardown}
           - {label: "YouTube video ID", name: youtube-id, widget: string}
 
   - label: "Pages"
@@ -84,20 +83,19 @@ collections:
             name: regular
             widget: object
             fields:
-              - {label: "Titre", name: heading, widget: string}
-              - {label: "Sous-titre", name: subheading, widget: string}
+              - {label: "Titre", name: heading, widget: mardown}
+              - {label: "Sous-titre", name: subheading, widget: markdown}
               - {label: "Image de couverture (2100 x 750 px)", name: cover-image, widget: image}
           - label: "Billeterie ouverte"
             name: ticketing
             widget: object
             fields:
-              - {label: "Titre", name: heading, widget: string}
-              - {label: "Sous-titre", name: subheading, widget: string}
+              - {label: "Titre", name: heading, widget: mardown}
+              - {label: "Sous-titre", name: subheading, widget: mardown}
               - {label: "Image de couverture (2100 x 750 px)", name: cover-image, widget: image}
           - label: "Edition la plus récente"
             name: latest-edition
-            widget: number
-            valueType: "int"
+            widget: string
             pattern: ["\\d{4}", "Doit être de la forme AAAA"]
             default: 2018
           - label: "Speakers"
@@ -135,7 +133,7 @@ collections:
         format: yaml-frontmatter
         extension: html
         fields:
-          - {label: "Description de l'association", name: association-description, widget: text}
+          - {label: "Description de l'association", name: association-description, widget: markdown}
           - {label: "Photo de l'équipe (750 x 400 px)", name: team-picture, widget: image}
           - label: "Equipe"
             name: teams
@@ -143,8 +141,7 @@ collections:
             fields:
               - label: "Année"
                 name: year
-                widget: number
-                valueType: "int"
+                widget: string
                 pattern: ["\\d{4}", "Doit être de la forme AAAA"]
                 default: 2018
               - {label: "Membres", name: members, widget: text}

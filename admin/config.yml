@@ -21,18 +21,18 @@ collections:
           - label: "Page Facebook (URL)"
             name: facebook-url
             widget: string
-            pattern: ["https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)", "Doit être une URL valide"]
+            pattern: ["https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)", "Doit être une URL valide"]
           - label: "Billeterie (URL)"
             name: ticketing-url
             widget: string
-            pattern: ["https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)", "Doit être une URL valide"]
+            pattern: ["https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)", "Doit être une URL valide"]
           - label: "Billeterie ouverte"
             name: selling, widget: "boolean"
             default: false
           - label: "Événement Facebook (URL)"
             name: fb-event-url
             widget: string
-            pattern: ["https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)", "Doit être une URL valide"]
+            pattern: ["https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)", "Doit être une URL valide"]
 
   - label: "Vidéos"
     name: "videos"
@@ -124,7 +124,7 @@ collections:
               - label: "Website"
                 name: website
                 widget: string
-                pattern: ["https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)", "Doit être une URL valide"]
+                pattern: ["https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)", "Doit être une URL valide"]
               - {label: "Description", name: description, widget: text}
           - {label: "Body", name: "body", widget: "hidden"}
 

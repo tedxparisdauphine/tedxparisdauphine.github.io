@@ -64,7 +64,7 @@ collections:
           - {label: "Prénom du speaker", name: speaker-first-name, widget: string}
           - {label: "Nom du speaker", name: speaker-last-name, widget: string}
           - {label: "Titre du talk", name: title, widget: string}
-          - {label: "Description", name: description, widget: mardown}
+          - {label: "Description", name: description, widget: markdown}
           - {label: "YouTube video ID", name: youtube-id, widget: string}
 
   - label: "Pages"
@@ -83,15 +83,15 @@ collections:
             name: regular
             widget: object
             fields:
-              - {label: "Titre", name: heading, widget: mardown}
+              - {label: "Titre", name: heading, widget: markdown}
               - {label: "Sous-titre", name: subheading, widget: markdown}
               - {label: "Image de couverture (2100 x 750 px)", name: cover-image, widget: image}
           - label: "Billeterie ouverte"
             name: ticketing
             widget: object
             fields:
-              - {label: "Titre", name: heading, widget: mardown}
-              - {label: "Sous-titre", name: subheading, widget: mardown}
+              - {label: "Titre", name: heading, widget: markdown}
+              - {label: "Sous-titre", name: subheading, widget: markdown}
               - {label: "Image de couverture (2100 x 750 px)", name: cover-image, widget: image}
           - label: "Edition la plus récente"
             name: latest-edition

@@ -145,7 +145,7 @@ collections:
                 name: year
                 widget: number
                 valueType: "int"
-                pattern: ["\d{4}", "Doit être de la forme AAAA"]
+                pattern: ["\\d{4}", "Doit être de la forme AAAA"]
                 default: 2018
               - {label: "Membres", name: members, widget: text}
           - {label: "Body", name: "body", widget: "hidden"}

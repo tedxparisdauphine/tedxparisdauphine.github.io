@@ -106,7 +106,6 @@ collections:
               - {label: "Nom", name: last-name, widget: string}
               - {label: "Description du speaker", name: description, widget: text}
               - {label: "Photo du speaker (125 x 125 px)", name: picture, widget: image}
-          - {label: "Body", name: "body", widget: "hidden"}
 
       - label: "Partenaires"
         name: partners
@@ -115,7 +114,7 @@ collections:
         extension: yml
         fields:
           - label: "Partenaire"
-            name: partner
+            name: list
             widget: list
             fields:
               - {label: "Nom", name: name, widget: string}
@@ -125,7 +124,6 @@ collections:
                 widget: string
                 pattern: ["https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)", "Doit être une URL valide"]
               - {label: "Description", name: description, widget: text}
-          - {label: "Body", name: "body", widget: "hidden"}
 
       - label: "L'association"
         name: association
@@ -145,4 +143,22 @@ collections:
                 pattern: ["\\d{4}", "Doit être de la forme AAAA"]
                 default: 2018
               - {label: "Membres", name: members, widget: text}
-          - {label: "Body", name: "body", widget: "hidden"}
+
+      - label: "Rejoignez-nous"
+        name: join-us
+        file: "_pages/join-us.html"
+        format: yaml-frontmatter
+        extension: html
+        fields:
+          - {label: "Layout", name: layout, widget: hidden}
+          - {label: "Permalink", name: permalink, widget: hidden}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Description", name: description, widget: text}
+          - {label: "Miniature", name: image, widget: image}
+          - label: "Formulaire (URL)"
+            name: form
+            widget: string
+            pattern: ["https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)", "Doit être une URL valide"]
+          - {label: "Body", name: body, widget: hidden}
+
+

@@ -75,9 +75,9 @@ collections:
 
       - label: "Accueil"
         name: accueil
-        file: "_pages/home.html"
-        format: yaml-frontmatter
-        extension: html
+        file: "_data/home.yml"
+        format: yaml
+        extension: yml
         fields:
           - label: "Normal"
             name: regular
@@ -110,9 +110,9 @@ collections:
 
       - label: "Partenaires"
         name: partners
-        file: "_pages/partners.html"
-        format: yaml-frontmatter
-        extension: html
+        file: "_data/partners.yml"
+        format: yaml
+        extension: yml
         fields:
           - label: "Partenaire"
             name: partner
@@ -129,9 +129,9 @@ collections:
 
       - label: "L'association"
         name: association
-        file: "_pages/association.html"
-        format: yaml-frontmatter
-        extension: html
+        file: "_data/association.yml"
+        format: yaml
+        extension: yml
         fields:
           - {label: "Description de l'association", name: association-description, widget: markdown}
           - {label: "Photo de l'équipe (750 x 400 px)", name: team-picture, widget: image}

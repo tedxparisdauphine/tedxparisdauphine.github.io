@@ -1,73 +1,21 @@
 ---
 layout: default
 permalink: /
-regular:
-  cover-image: /assets/images/uploads/tedx-dauphine-home-background.jpg
-  heading: Ne manquez pas nos prochains événements !
-  subheading: Inscrivez-vous pour être tenu au courant
-ticketing:
-  cover-image: /assets/images/uploads/tedx-dauphine-2017-envie.jpg
-  heading: |-
-    TEDx revient à Dauphine
-
-    **le 29 novembre** !
-  subheading: Prenez dès maintenant vos billets
-latest-edition: 2017
-speakers:
-  - description: >-
-      Spécialiste de l’urbanisme et co-fondateur de l’association Yes We Camp,
-      Nicolas Détrie met en lumière, à travers son talk, l’importance de
-      l’aménagement du territoire pour favoriser les rencontres et l’échange.
-    first-name: Nicolas
-    last-name: Détrie
-    picture: /assets/images/uploads/nicolas-detrie-tedx-dauphine.png
-  - description: >-
-      Naturopathe et herbaliste, il s'est donné pour mission de faire découvrir
-      la richesse et les bienfaits de la nature. Son talk a été l'occasion de
-      partager sa passion et de révéler les clés pour devenir autonome grâce à
-      la nature.
-    first-name: Christophe
-    last-name: De Hody
-    picture: /assets/images/uploads/christophe-de-hody-tedx-dauphine.png
-  - description: >-
-      Aline Tacite est la fondatrice de Boucles d'Ebène Studio, le premier salon
-      français spécialisé dans le cheveu crépu, frisé et bouclé. Véritable
-      activiste, Aline lutte aujourd’hui contre le poids des normes sociales et
-      contre la stigmatisation de la frisure.
-    first-name: Aline
-    last-name: Tacite
-    picture: /assets/images/uploads/aline-tacite-tedx-dauphine.png
-  - description: >-
-      Longtemps engagée à France Terre d’Asile et à la Croix-Rouge, Imaan M. se
-      consacre désormais à sa marque de vêtements Gulshaan. À travers son talk,
-      elle vous propose de relever le défi de l’engagement pour devenir un
-      acteur du monde de demain.
-    first-name: Imaan
-    last-name: M.
-    picture: /assets/images/uploads/imaan-m-tedx-dauphine.png
-  - description: >-
-      Wissam Sammouri est Data Scientist, co-fondateur de Pixis, enseignant à
-      l’Université Paris Descartes et à l'ECE. Son talk est une invitation à
-      penser la carrière professionnelle autrement, au travers de l'intelligence
-      artificielle.
-    first-name: Wissam
-    last-name: Sammouri
-    picture: /assets/images/uploads/wissam-sammouri-tedx-dauphine.png
 ---
 <div class="main-container">
 
     <section class="cover fullscreen overlay">
         <div class="background-image-holder">
             <img alt="image" class="background-image img-responsive"
-                 src="{% if site.data.options.selling %}{{ page.ticketing.cover-image }}{% else %}{{ page.regular.cover-image }}{% endif %}">
+                 src="{% if site.data.options.selling %}{{ site.data.home.ticketing.cover-image }}{% else %}{{ site.data.home.regular.cover-image }}{% endif %}">
         </div>
         <div class="container v-align-transform">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
 
                     {% if site.data.options.selling %}
-                    <h1 class="mb16">{{ page.ticketing.heading | markdownify }}</h1>
-                    <p class="lead home__subtitle-tickets">{{ page.ticketing.subheading | markdownify }}</p>
+                    <h1 class="mb16">{{ site.data.home.ticketing.heading | markdownify }}</h1>
+                    <p class="lead home__subtitle-tickets">{{ site.data.home.ticketing.subheading | markdownify }}</p>
                     <div class="row mb64 mb-xs-24">
                         <div class="col-sm-8 col-sm-offset-2">
                             <a class="btn btn-lg btn-white home__btn-tickets home__btn-tickets-learn-more"
@@ -81,9 +29,9 @@ speakers:
                         </div>
                     </div>
                     {% else %}
-                    <h1 class="mb16">{{ page.regular.heading | markdownify }}</h1>
+                    <h1 class="mb16">{{ site.data.home.regular.heading | markdownify }}</h1>
                     <p class="lead home__subtitle">
-                        {{ page.regular.subheading | markdownify }}
+                        {{ site.data.home.regular.subheading | markdownify }}
                     </p>
                     <div class="row mb80 mb-xs-24">
                         <div class="col-sm-8 col-sm-offset-2">
@@ -101,9 +49,9 @@ speakers:
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 text-center">
-                    <h2 class="mb64">Découvrez les vidéos de l'édition {{ page.latest-edition }}</h2>
-                    <a class="btn btn-lg btn-red mb0 home__btn-talks" href="/videos/edition-{{ page.latest-edition }}">&gt; Talks de
-                        l'édition {{ page.latest-edition }}</a>
+                    <h2 class="mb64">Découvrez les vidéos de l'édition {{ site.data.home.latest-edition }}</h2>
+                    <a class="btn btn-lg btn-red mb0 home__btn-talks" href="/videos/edition-{{ site.data.home.latest-edition }}">&gt; Talks de
+                        l'édition {{ site.data.home.latest-edition }}</a>
                 </div>
             </div>
         </div>
@@ -115,11 +63,11 @@ speakers:
 
             <div class="row mb80 mb-s-0">
                 <div class="col-sm-10 col-sm-offset-1 text-center">
-                    <h2>Ils ont participé à l'édition {{ page.latest-edition }} : </h2>
+                    <h2>Ils ont participé à l'édition {{ site.data.home.latest-edition }} : </h2>
                 </div>
             </div>
 
-            {% for speaker in page.speakers %}
+            {% for speaker in site.data.home.speakers %}
 
             {% cycle '<div class="row">', blank, blank %}
 

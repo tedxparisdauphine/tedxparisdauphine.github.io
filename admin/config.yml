@@ -144,7 +144,7 @@ collections:
                 default: 2018
               - {label: "Membres", name: members, widget: text}
 
-      - label: "Rejoignez-nous"
+      - label: "Rejoignez-nous - /rejoignez-nous/"
         name: join-us
         file: "_pages/join-us.html"
         format: yaml-frontmatter
@@ -152,9 +152,9 @@ collections:
         fields:
           - {label: "Layout", name: layout, widget: hidden}
           - {label: "Permalink", name: permalink, widget: hidden}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Description", name: description, widget: text}
-          - {label: "Miniature", name: image, widget: image}
+          - {label: "Titre (réseaux sociaux)", name: title, widget: string}
+          - {label: "Description (réseaux sociaux)", name: description, widget: text}
+          - {label: "Miniature (réseaux sociaux)", name: image, widget: image}
           - label: "Formulaire (URL)"
             name: form
             widget: string

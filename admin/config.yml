@@ -12,6 +12,7 @@ collections:
     name: "general"
     editor:
          preview: false
+    delete: false
     files:
       - label: "Options"
         name: "options"
@@ -71,6 +72,7 @@ collections:
     name: pages
     editor:
          preview: false
+    delete: false
     files:
 
       - label: "Accueil"

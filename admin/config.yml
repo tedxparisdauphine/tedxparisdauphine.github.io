@@ -119,7 +119,7 @@ collections:
             fields:
               - {label: "Nom", name: name, widget: string}
               - {label: "Logo (200 x 125 px)", name: logo, widget: image}
-              - label: "Website"
+              - label: "Site web (URL)"
                 name: website
                 widget: string
                 pattern: ["https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)", "Doit être une URL valide"]

@@ -1,52 +1,35 @@
 list:
-  - description: >-
-      L’université Paris-Dauphine est un établissement public d’enseignement
-      supérieur et de recherche français spécialisé dans les sciences des
-      organisations et des marchés
+  - name: Université Paris Dauphine
     logo: /assets/images/uploads/universite-paris-dauphine-tedx-dauphine.png
-    name: Université Paris Dauphine
-    website: 'http://www.dauphine.fr/'
-  - description: >-
-      L’université de recherche Paris Sciences & Lettres est une communauté
-      d'universités et établissements française. Elle regroupe vingt-six
-      institutions.
+    website: http://www.dauphine.fr/
+    description: L’université Paris-Dauphine est un établissement public d’enseignement supérieur et de recherche français spécialisé dans les sciences des organisations et des marchés
+
+  - name: PSL
     logo: /assets/images/uploads/psl-tedx-dauphine.png
-    name: PSL
-    website: 'https://www.univ-psl.fr/fr'
-  - description: >-
-      Ladurée, maison de macarons et fabriquant de douceurs depuis 1862,
-      expérience unique de la gourmandise à la française, dispose aujourd'hui de
-      salons de thé et restaurants autour du monde.
+    website: https://www.univ-psl.fr/fr
+    description: L’université de recherche Paris Sciences & Lettres est une communauté d'universités et établissements française. Elle regroupe vingt-six institutions.
+
+  - name: Ladurée
     logo: /assets/images/uploads/laduree-tedx-dauphine.png
-    name: Ladurée
-    website: 'https://www.laduree.fr/'
-  - description: >-
-      Spécialiste français, propose depuis 7 ans une sélection d'eaux de coco
-      100% naturelles pour vous faire (re)découvrir les goûts de la noix de
-      coco.
+    website: https://www.laduree.fr/
+    description: Ladurée, maison de macarons et fabriquant de douceurs depuis 1862, expérience unique de la gourmandise à la française, dispose aujourd'hui de salons de thé et restaurants autour du monde.
+
+  - name: Vaivai
     logo: /assets/images/uploads/vaivai-tedx-dauphine.png
-    name: Vaivai
-    website: 'https://www.vaivai.fr/fr/'
-  - description: >-
-      La marque Nature Addicts, N.A! réinvente le monde du snacking en créant
-      des encas sucrés et salés 100% issus de la nature et surtout délicieux !
+    website: https://www.vaivai.fr/fr/
+    description: Spécialiste français, propose depuis 7 ans une sélection d'eaux de coco 100% naturelles pour vous faire (re)découvrir les goûts de la noix de coco.
+
+  - name: Nature Addicts
     logo: /assets/images/uploads/nature-addicts-tedx-dauphine.png
-    name: Nature Addicts
-    website: 'http://www.na-natureaddicts.com/fr'
-  - description: >-
-      Tous les jours, l'actualité de l'innovation marketing, communication et
-      business, les meilleures start-up, le top des campagnes de publicité.
+    website: http://www.na-natureaddicts.com/fr
+    description: La marque Nature Addicts, N.A! réinvente le monde du snacking en créant des encas sucrés et salés 100% issus de la nature et surtout délicieux !
+
+  - name: L'ADN
     logo: /assets/images/uploads/l-adn-tedx-dauphine.png
-    name: L'ADN
-    website: 'http://www.ladn.eu/'
-  - description: >-
-      Heetch de retour et partenaire de TEDx Université Paris-Dauphine ! Il
-      t'accompagne pour ta soirée et te propose son moyen de transport pensé
-      pour la vie nocturne.
+    website: http://www.ladn.eu/
+    description: Tous les jours, l'actualité de l'innovation marketing, communication et business, les meilleures start-up, le top des campagnes de publicité.
+
+  - name: Heetch
     logo: /assets/images/uploads/heetch-tedx-dauphine.png
-    name: Heetch
-    website: 'https://www.heetch.com/'
-  - description: Test description
-    logo: /assets/images/uploads/walk-the-talk-tedx-dauphine.png
-    name: Test
-    website: 'https://www.youtube.com'
+    website: https://www.heetch.com/
+    description: Heetch de retour et partenaire de TEDx Université Paris-Dauphine ! Il t'accompagne pour ta soirée et te propose son moyen de transport pensé pour la vie nocturne.

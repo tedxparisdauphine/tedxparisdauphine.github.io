@@ -1,0 +1,52 @@
+regular:
+  cover-image: /assets/images/uploads/tedx-dauphine-home-background.jpg
+  heading: Ne manquez pas nos prochains événements !
+  subheading: Inscrivez-vous pour être tenu au courant
+ticketing:
+  cover-image: /assets/images/uploads/tedx-dauphine-2017-envie.jpg
+  heading: |-
+    TEDx revient à Dauphine
+
+    **le 29 novembre** !
+  subheading: Prenez dès maintenant vos billets
+latest-edition: 2017
+speakers:
+  - description: >-
+      Spécialiste de l’urbanisme et co-fondateur de l’association Yes We Camp,
+      Nicolas Détrie met en lumière, à travers son talk, l’importance de
+      l’aménagement du territoire pour favoriser les rencontres et l’échange.
+    first-name: Nicolas
+    last-name: Détrie
+    picture: /assets/images/uploads/nicolas-detrie-tedx-dauphine.png
+  - description: >-
+      Naturopathe et herbaliste, il s'est donné pour mission de faire découvrir
+      la richesse et les bienfaits de la nature. Son talk a été l'occasion de
+      partager sa passion et de révéler les clés pour devenir autonome grâce à
+      la nature.
+    first-name: Christophe
+    last-name: De Hody
+    picture: /assets/images/uploads/christophe-de-hody-tedx-dauphine.png
+  - description: >-
+      Aline Tacite est la fondatrice de Boucles d'Ebène Studio, le premier salon
+      français spécialisé dans le cheveu crépu, frisé et bouclé. Véritable
+      activiste, Aline lutte aujourd’hui contre le poids des normes sociales et
+      contre la stigmatisation de la frisure.
+    first-name: Aline
+    last-name: Tacite
+    picture: /assets/images/uploads/aline-tacite-tedx-dauphine.png
+  - description: >-
+      Longtemps engagée à France Terre d’Asile et à la Croix-Rouge, Imaan M. se
+      consacre désormais à sa marque de vêtements Gulshaan. À travers son talk,
+      elle vous propose de relever le défi de l’engagement pour devenir un
+      acteur du monde de demain.
+    first-name: Imaan
+    last-name: M.
+    picture: /assets/images/uploads/imaan-m-tedx-dauphine.png
+  - description: >-
+      Wissam Sammouri est Data Scientist, co-fondateur de Pixis, enseignant à
+      l’Université Paris Descartes et à l'ECE. Son talk est une invitation à
+      penser la carrière professionnelle autrement, au travers de l'intelligence
+      artificielle.
+    first-name: Wissam
+    last-name: Sammouri
+    picture: /assets/images/uploads/wissam-sammouri-tedx-dauphine.png

@@ -5,7 +5,7 @@
                 <div class="module left">
                     <a href="/">
                         <img class="logo" alt="tedx-universite-paris-dauphine"
-                             src="/assets/img/logo-tedx-universite-paris-dauphine.svg">
+                             src="/assets/images/logo-tedx-universite-paris-dauphine.svg">
                     </a>
                 </div>
                 <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
@@ -47,11 +47,11 @@
                             <li>
                                 <a href="/contact/">Contact</a>
                             </li>
-                            {% if site.selling %}
+                            {% if site.data.options.selling %}
                             <li>
                                 <div class="right">
                                     <a class="btn btn-sm btn-red header__btn-tickets"
-                                       href="{{ site.ticketing-url }}"
+                                       href="{{ site.data.options.ticketing-url }}"
                                        target="_blank">Billeterie</a>
                                 </div>
                             </li>
@@ -62,8 +62,8 @@
                         <div class="module widget-handle left">
                             <ul class="menu">
                                 <li>
-                                    <a href="https://www.facebook.com/tedxparisdauphine/" target="_blank">
-                                        <img class="header__facebook-logo" src="/assets/img/facebook-tedx-dauphine.png"
+                                    <a href="{{ site.data.options.facebook-url }}" target="_blank">
+                                        <img class="header__facebook-logo" src="/assets/images/facebook-tedx-dauphine.png"
                                              alt="facebook-tedx-dauphine">
                                     </a>
                                 </li>

@@ -2,40 +2,29 @@
 layout: default
 permalink: /association/
 
-title: L'association - TEDx Université Paris Dauphine
+title: L'association
 description: Découvrez l'association TEDx Université Paris-Dauphine.
 ---
-
 <div class="main-container">
     <section>
         <div class="container">
             <h1 class="medium-heading">L'association</h1>
             <div class="row mb32">
                 <div class="col-sm-8 col-sm-offset-2">
-                    <p class="text-justify"><strong>TEDx Université Paris-Dauphine</strong> est une association loi 1901
-                        dont l'objectif est d’organiser des conférences de façon indépendante sous licence TED afin de
-                        favoriser le partage et la diffusion d’idées au sein de l'<strong>Université Paris-Dauphine</strong>.
-                    </p>
-                    <p class="text-justify">L’association TEDx Université Paris-Dauphine a organisé sa première conférence
-                        sur la thématique : <strong>« Dans les règles de l’art »</strong>, le jeudi 4 juin 2015. Les
-                        intervenants étaient : <strong>Marie-Sophie Ahmadi, Christian Blanckaert, Kammel Menour,
-                            Pierre-Etienne Bost, Paul Benoit, Stéphane Dufossé et Olivier Roller</strong>.</p>
-                    <p>La seconde conférence TEDx Université Paris-Dauphine a eu lieu le 25 novembre 2016. <strong>Emmanuelle Garault,
-                        Alexandre Stachtchenko, Héloïse Nio, Inken Dechow, Dominique Retoux, Mehdi Dutheil, Xavier Gorce et Aude Baron</strong>
-                        ont donné des talks autour du thème <strong>« Rien de bien méchant »</strong>.</p>
+                    {{ site.data.association.association-description | markdownify }}
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
                     <h2 class="text-center">L'équipe</h2>
                     <div class="text-center mb48">
-                        <img src="/assets/img/equipe-tedx-dauphine.jpg" alt="equipe-tedx-dauphine">
+                        <img src="{{ site.data.association.team-picture }}" alt="equipe-tedx-dauphine">
                     </div>
 
-                    {% for team in site.data.teams.teams reversed %}
+                    {% for team in site.data.association.teams reversed %}
 
-                        <h3 class="text-center mb8">{{ team.year }}</h3>
-                        <p>{{ team.members }}</p>
+                    <h3 class="text-center mb8">{{ team.year }}</h3>
+                    <p>{{ team.members }}</p>
 
                     {% endfor %}
 

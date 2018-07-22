@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: implement-cms
+  branch: X
 
 media_folder: "assets/images/uploads"
 

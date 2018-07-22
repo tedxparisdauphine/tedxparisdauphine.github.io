@@ -17,6 +17,7 @@ collections:
         name: "options"
         file: "_data/options.yml"
         format: yaml
+        delete: false
         fields:
           - label: "Page Facebook (URL)"
             name: facebook-url
@@ -42,6 +43,7 @@ collections:
     slug: "{{year}}"
     format: yaml-frontmatter
     extension: md
+    delete: true
     editor:
          preview: false
     fields:
@@ -78,6 +80,7 @@ collections:
         file: "_data/home.yml"
         format: yaml
         extension: yml
+        delete: false
         fields:
           - label: "Normal"
             name: regular
@@ -112,6 +115,7 @@ collections:
         file: "_data/partners.yml"
         format: yaml
         extension: yml
+        delete: false
         fields:
           - label: "Partenaire"
             name: list
@@ -130,6 +134,7 @@ collections:
         file: "_data/association.yml"
         format: yaml
         extension: yml
+        delete: false
         fields:
           - {label: "Description de l'association", name: association-description, widget: markdown}
           - {label: "Photo de l'équipe (750 x 400 px)", name: team-picture, widget: image}
@@ -149,6 +154,7 @@ collections:
         file: "_pages/join-us.html"
         format: yaml-frontmatter
         extension: html
+        delete: false
         fields:
           - {label: "Layout", name: layout, widget: hidden}
           - {label: "Permalink", name: permalink, widget: hidden}

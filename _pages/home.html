@@ -72,7 +72,7 @@ permalink: /
             <div class="col-sm-4 mb56">
                 <div class="feature feature-2 filled text-center">
                     <div class="text-center">
-                        <a href="/videos/edition-{{latest-edition}}/#{{ speaker.first-name | slugify }}-{{ speaker.last-name | slugify }}">
+                        <a href="/videos/edition-{{ site.data.home.latest-edition }}/#{{ speaker.first-name | slugify }}-{{ speaker.last-name | slugify }}">
                             <img class="mb24" src="{{ speaker.picture }}"
                                  alt="{{ speaker.first-name | slugify }}-{{ speaker.last-name | slugify }}-tedx-dauphine">
                             <h3>
@@ -87,7 +87,7 @@ permalink: /
                         {{ speaker.description }}
                     </p>
                     <p class="mt0">
-                        <a href="/videos/edition-2017/#{{ speaker.first-name | slugify }}-{{ speaker.last-name | slugify }}"
+                        <a href="/videos/edition-{{ site.data.home.latest-edition }}/#{{ speaker.first-name | slugify }}-{{ speaker.last-name | slugify }}"
                            class="home__btn-watch-talk btn btn-red">
                             Regarder le talk
                         </a>

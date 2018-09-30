@@ -15,7 +15,7 @@
 
     <!-- Open Graph -->
     <meta property="og:url"                content="{{ page.url | absolute_url }}">
-    <meta property="og:title"              content="{% if page.year %}Vidéos de l'édition {{ page.year }} - TEDx Université Paris-Dauphine{% elsif page.title %}{{ page.title }} - TEDx Université Paris-Dauphine{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:title"              content="{% if page.year %}Vidéos de l'édition {{ page.year }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description"        content="{% if page.description %}{{ page.description }}{% elsif page.year %}Découvrez les talks de l'édition {{ page.year }} de TEDx Université Paris-Dauphine en vidéos{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image"              content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.image | absolute_url }}{% endif %}">
     <meta property="og:type"               content="website">

@@ -1,10 +1,9 @@
 regular:
   cover-image: /assets/images/uploads/tedxupd-2018-19-convertimage.jpg
-  heading: |-
-    Les vidéos l'**édition 2018** arrivent. 
-
-    En attendant, ne manquez pas nos prochains événements !
-  subheading: Inscrivez-vous pour être tenu au courant
+  heading: Les vidéos l'**édition 2018** arrivent.
+  subheading: >-
+    Ne manquez pas nos prochains événement et inscrivez-vous à notre newletter
+    pour être tenu au courant
 ticketing:
   cover-image: /assets/images/uploads/swipe-up-visuel-affiche.jpg
   heading: |-

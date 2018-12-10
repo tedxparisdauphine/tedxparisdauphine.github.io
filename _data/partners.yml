@@ -13,14 +13,45 @@ list:
     logo: /assets/images/uploads/psl-tedx-dauphine.png
     name: PSL
     website: 'https://www.univ-psl.fr/fr'
-  - logo: /assets/images/uploads/1280px-coca-cola_logo.svg.png
+  - description: >-
+      Depuis plus de 130 ans, The Coca-Cola Company s'est forgée une identité
+      forte, construite autour d'une saga historique marquée par l'inspiration,
+      le partage et l'innovation. De la bouteille Contour aux campagnes de
+      publicité emblématiques, plongez dans notre univers, celui d'un marque qui
+      fait pétiller ses consommateurs de génération en génération, partout dans
+      le monde. 
+    logo: /assets/images/uploads/1280px-coca-cola_logo.svg.png
     name: Coca-Cola
     website: 'https://www.coca-cola-france.fr'
-  - logo: /assets/images/uploads/nieuw_logo-5c0d2ce203daa6b7ad4a746c8e04c695.jpg
-    name: Love Chock
+  - description: >-
+      Fait à la main avec beaucoup d’amour, Lovechock est produit à partir du
+      meilleur cacao cru biologique de l'Equateur. Lovechock utilise des fèves
+      de cacao non torréfiées mais moulues à froid. Ainsi, le chocolat Lovechock
+      est une source naturelle de flavonoïdes et de ‘composants d'amour’ : des
+      composants, qui évoquent un sentiment tendre et joyeux.
+    logo: /assets/images/uploads/nieuw_logo-5c0d2ce203daa6b7ad4a746c8e04c695.jpg
+    name: 'Love Chock '
     website: 'http://www.lovechock.com/nl/'
-  - logo: /assets/images/uploads/whoomies-logo-app-typo.png
+  - description: >-
+      Whoomies est la première application de matching entre colocataires ! 
+
+      Whoomies vous permet de rencontrer votre futur coloc et de trouver le
+      logement idéal.
+
+
+      Alors, qui sera votre super futur coloc ?! 
+    logo: /assets/images/uploads/whoomies-logo-app-typo.png
     name: 'Whoomies '
     website: 'http://www.whoomies.com/fr/'
-  - logo: /assets/images/uploads/rhodia_logo.png
+  - description: >-
+      Une qualité et des finitions irréprochables issues d’une véritable
+      expertise papetière. Un condensé d’inventivité et d’innovations techniques
+      (carte enduite souple et imperméable, couverture rainurée, agrafes en-tête
+      « Sangrif », sole cartonnée, feuilles détachables micro-perforées). Un
+      parti pris esthétique fort et un code couleur précurseur, «orange &
+      black», complémentarité évidente du dynamisme et de l’élégance. Autant
+      d’exigences qui constituent le « certificat d’authenticité » du bloc
+      Rhodia, un objet épuré, contemporain, quelle que soit l’époque.
+    logo: /assets/images/uploads/rhodia_logo.png
     name: Rhodia
+    website: 'https://www.bloc-rhodia.com'

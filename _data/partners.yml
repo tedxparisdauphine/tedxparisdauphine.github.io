@@ -23,13 +23,13 @@ list:
   - description: >-
       Fait à la main avec beaucoup d’amour, Lovechock est produit à partir du
       meilleur cacao cru biologique de l'Equateur. Lovechock utilise des fèves
-      de cacao non torréfiées mais moulues à froid. 
+      de cacao non torréfiées mais moulues à froid.
     logo: /assets/images/uploads/lovechock-tedx-dauphine.png
     name: 'Lovechock '
     website: 'http://www.lovechock.com/nl/'
-  - description: >
-      Whoomies est la première application de matching entre colocataires ! 
-
+  - description: >-
+      Whoomies est la première application de matching entre colocataires !
+      <br>
       Whoomies vous permet de rencontrer votre futur coloc et de trouver le
       logement idéal.
     logo: /assets/images/uploads/whoomies-tedx-dauphine.png

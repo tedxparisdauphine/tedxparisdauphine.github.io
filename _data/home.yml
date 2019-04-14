@@ -14,41 +14,56 @@ ticketing:
 latest-edition: '2018'
 speakers:
   - description: >-
-      Spécialiste de l’urbanisme et co-fondateur de l’association Yes We Camp,
-      Nicolas Détrie met en lumière, à travers son talk, l’importance de
-      l’aménagement du territoire pour favoriser les rencontres et l’échange.
-    first-name: Nicolas
-    last-name: Détrie
+      En opposition à toutes les théories rigides, Guewenn Loussouarn nous
+      explique pourquoi il est parfois nécessaire de se libérer des processus
+      qui nous entourent pour réussir sa carrière, être plus heureux et
+      apprendre à mieux vivre.
+    first-name: Guewenn
+    last-name: Loussouarn
+    picture: /assets/images/uploads/guewen-loussouarn-copie.png
+  - description: >-
+      Dans l’ère où tout va trop vite, où l’on nous demande de se surpasser,
+      Sandrine, ancienne responsable juridique aujourd'hui professeur de yoga
+      décide d’adopter un rythme inverse en préférant la “slow life” à la “fast
+      life”
+    first-name: Sandrine
+    last-name: Bridoux
+    picture: /assets/images/uploads/sandrine-bridoux-copie.png
+  - description: >-
+      Mathématicienne, spécialiste de l'IA et féministe dans le milieu de la
+      tech, Anna pense que chaque innovateur.trice est responsable de son impact
+      sur la société, et dans la tech, la question de neutralité se pose...
+    first-name: Anna
+    last-name: Choury
     picture: /assets/images/uploads/anna-choury.png
   - description: >-
-      Naturopathe et herbaliste, il s'est donné pour mission de faire découvrir
-      la richesse et les bienfaits de la nature. Son talk a été l'occasion de
-      partager sa passion et de révéler les clés pour devenir autonome grâce à
-      la nature.
-    first-name: Christophe
-    last-name: De Hody
-    picture: /assets/images/uploads/christophe-de-hody-tedx-dauphine.png
+      Laurent Rochette, l’un des producteurs du film Paris est à Nous disponible
+      sur Netflix, nous apporte la preuve qu’un autre cinéma est possible et
+      nous divulgue ses secret pour produire un film avec 0 euros.
+    first-name: Laurent
+    last-name: Rochette
+    picture: /assets/images/uploads/laurent-rochette-copie.png
   - description: >-
-      Aline Tacite est la fondatrice de Boucles d'Ebène Studio, le premier salon
-      français spécialisé dans le cheveu crépu, frisé et bouclé. Véritable
-      activiste, Aline lutte aujourd’hui contre le poids des normes sociales et
-      contre la stigmatisation de la frisure.
-    first-name: Aline
-    last-name: Tacite
-    picture: /assets/images/uploads/aline-tacite-tedx-dauphine.png
+      Dans son discours porté sur la réflexion qui pousse une personne à
+      l’action, Sophie Vannier appelle l’ensemble des citoyens à s’engager dès
+      aujourd’hui dans la protection de notre notre environnement pour atteindre
+      l’objectif fixé par l’ONU.
+    first-name: Sophie
+    last-name: Vannier
+    picture: /assets/images/uploads/sophie-vannier-copie.png
   - description: >-
-      Longtemps engagée à France Terre d’Asile et à la Croix-Rouge, Imaan M. se
-      consacre désormais à sa marque de vêtements Gulshaan. À travers son talk,
-      elle vous propose de relever le défi de l’engagement pour devenir un
-      acteur du monde de demain.
-    first-name: Imaan
-    last-name: M.
-    picture: /assets/images/uploads/imaan-m-tedx-dauphine.png
+      Dans une vie où toutes les sphères de la société se trouvent bouleversées
+      par la technologie, l’amour résistera-t-il à ce changement ?
+      Anne-Caroline, écrivain-prospectiviste, imagine les mots que nous
+      utiliserons demain pour parler de l’amour 2.0.
+    first-name: Anne-Caroline
+    last-name: Paucot
+    picture: /assets/images/uploads/anne-caroline-paucot-copie.png
   - description: >-
-      Wissam Sammouri est Data Scientist, co-fondateur de Pixis, enseignant à
-      l’Université Paris Descartes et à l'ECE. Son talk est une invitation à
-      penser la carrière professionnelle autrement, au travers de l'intelligence
-      artificielle.
-    first-name: Wissam
-    last-name: Sammouri
-    picture: /assets/images/uploads/wissam-sammouri-tedx-dauphine.png
+      Qu’est ce que vous voulez vraiment faire de votre vie si vous n’avez
+      aucune possibilité d’échouer ? C’est en allant vivre dans un monastère
+      bouddhiste au Népal que Joffrey, ingénieur de formation, parvient à
+      trouver sa réponse…
+    first-name: Jeoffrey
+    last-name: Persia
+    picture: /assets/images/uploads/joffrey-persia.png

@@ -28,21 +28,21 @@ speakers:
       life”
     first-name: Sandrine
     last-name: Bridoux
-    picture: /assets/images/uploads/sandrine-bridoux-copie.png
+    picture: /assets/images/uploads/sandrine-bridoux-tedx-dauphine.png
   - description: >-
       Mathématicienne, spécialiste de l'IA et féministe dans le milieu de la
       tech, Anna pense que chaque innovateur.trice est responsable de son impact
       sur la société, et dans la tech, la question de neutralité se pose...
     first-name: Anna
     last-name: Choury
-    picture: /assets/images/uploads/anna-choury.png
+    picture: /assets/images/uploads/anna-choury-tedx-dauphine.png
   - description: >-
       Laurent Rochette, l’un des producteurs du film Paris est à Nous disponible
       sur Netflix, nous apporte la preuve qu’un autre cinéma est possible et
       nous divulgue ses secret pour produire un film avec 0 euros.
     first-name: Laurent
     last-name: Rochette
-    picture: /assets/images/uploads/laurent-rochette-copie.png
+    picture: /assets/images/uploads/laurent-rochette-tedx-dauphine.png
   - description: >-
       Dans son discours porté sur la réflexion qui pousse une personne à
       l’action, Sophie Vannier appelle l’ensemble des citoyens à s’engager dès
@@ -50,7 +50,7 @@ speakers:
       l’objectif fixé par l’ONU.
     first-name: Sophie
     last-name: Vannier
-    picture: /assets/images/uploads/sophie-vannier-copie.png
+    picture: /assets/images/uploads/sophie-vannier-tedx-dauphine.png
   - description: >-
       Dans une vie où toutes les sphères de la société se trouvent bouleversées
       par la technologie, l’amour résistera-t-il à ce changement ?
@@ -58,7 +58,7 @@ speakers:
       utiliserons demain pour parler de l’amour 2.0.
     first-name: Anne-Caroline
     last-name: Paucot
-    picture: /assets/images/uploads/anne-caroline-paucot-copie.png
+    picture: /assets/images/uploads/anne-caroline-paucot-tedx-dauphine.png
   - description: >-
       Qu’est ce que vous voulez vraiment faire de votre vie si vous n’avez
       aucune possibilité d’échouer ? C’est en allant vivre dans un monastère
@@ -66,4 +66,4 @@ speakers:
       trouver sa réponse…
     first-name: Jeoffrey
     last-name: Persia
-    picture: /assets/images/uploads/joffrey-persia.png
+    picture: /assets/images/uploads/joffrey-persia-tedx-dauphine.png

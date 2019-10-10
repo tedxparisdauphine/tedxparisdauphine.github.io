@@ -1,44 +1,82 @@
 list:
   - description: >-
-      L’Université Paris-Dauphine est un établissement public d’enseignement
-      supérieur et de recherche français spécialisé dans les sciences des
-      organisations et des marchés
-    logo: /assets/images/uploads/universite-paris-dauphine-tedx-dauphine.png
-    name: Université Paris Dauphine
+      L’Université Paris-Dauphine (membre PSL) est un établissement public
+      d’enseignement supérieur et de recherche français spécialisé dans les
+      sciences des organisations et des marchés
+    logo: /assets/images/uploads/dauphine-noir.png
+    name: Université Paris Dauphine - PSL
     website: 'http://www.dauphine.fr/'
+  - description: >
+      LVMH réunit 75 Maisons d'exception, au sein de 6 secteurs d’activité :
+      Vins & Spiritueux, Mode & Maroquinerie, Parfums & Cosmétiques, Montres &
+      Joaillerie, Distribution Sélective, et Autres Activités, dont
+      l’hospitalité, la culture et les arts.
+
+
+      Ce qui rend LVMH unique, c’est l’envie de voir les choses en grand et
+      d’enfreindre les règles. LVMH possède une communauté de 156,000
+      collaborateurs autour du monde, liés par une forte volonté d’innover pour
+      renouveler leur offre et être résolument tournés vers l’avenir, tout en
+      s’inscrivant dans le respect de notre patrimoine.
+    logo: /assets/images/uploads/logo_lvmh-noir-1-.png
+    name: LVMH
+    website: 'https://www.lvmh.fr/'
+  - description: >
+      AXA Group Operations est le "coeur" technologique du Groupe AXA et le
+      moteur de sa transformation digitale.
+
+
+      Lancé officiellement en janvier 2019, AXA Group Operations a pour objectif
+      d’aider les entités AXA du monde entier à donner aux personnes les moyens
+      de mener une vie meilleure.
+
+      En tant que «moteur» d’AXA, Group Operations est responsable de la gestion
+      quotidienne de l’activité, ainsi que de la fourniture de solutions
+      essentielles pour son avenir.
+
+
+      Réunissant sept équipes aux expertises variées (IT, Data et Technologies
+      émergentes, Sécurité, Finance, Programmes stratégiques, Achats et Sourcing
+      ainsi qu’AXA Business Services), AXA Group Operations conseille, oriente
+      les choix technologiques et donne un accès à AXA aux innovations qui vont
+      contribuer à sa transformation en tech-led company orientée client. Pour
+      cela, AXA Group Operations travaille en partenariat étroit avec les
+      entités d’AXA.
+
+      L'environnement d'AXA Group Operations est mondial et stimulant, avec plus
+      de 8 000 collaborateurs dans 17 pays, répartis entre Europe, Asie et
+      Amérique.
+    logo: /assets/images/uploads/logo-axa-group-operations-1-.png
+    name: AXA Group Operations
+    website: 'https://www.linkedin.com/company/axa-group-operations/'
   - description: >-
-      L’Université de recherche Paris Sciences & Lettres est une communauté
-      d'universités et établissements française. Elle regroupe vingt-six
-      institutions.
-    logo: /assets/images/uploads/psl-tedx-dauphine.png
-    name: PSL
-    website: 'https://www.univ-psl.fr/fr'
-  - description: >-
-      Coca-Cola s'est forgée autour de ses boissons une identité forte,
-      construite autour d'une saga historique marquée par l'inspiration, le
-      partage et l'innovation.
-    logo: /assets/images/uploads/coca-cola-tedx-dauphine.png
-    name: Coca-Cola
-    website: 'https://www.coca-cola-france.fr'
-  - description: >-
-      Fait à la main avec beaucoup d’amour, Lovechock est produit à partir du
-      meilleur cacao cru biologique de l'Equateur. Lovechock utilise des fèves
-      de cacao non torréfiées mais moulues à froid.
-    logo: /assets/images/uploads/lovechock-tedx-dauphine.png
-    name: 'Lovechock '
-    website: 'http://www.lovechock.com/nl/'
-  - description: >-
-      Whoomies est la première application de matching entre colocataires !
-      <br>
-      Whoomies vous permet de rencontrer votre futur coloc et de trouver le
-      logement idéal.
-    logo: /assets/images/uploads/whoomies-tedx-dauphine.png
-    name: 'Whoomies '
-    website: 'http://www.whoomies.com/fr/'
-  - description: >-
-      Filiale du groupe belge Solvay depuis septembre 2011, Rhodia est un des
-      principaux groupes de l'industrie chimique française, spécialisé dans la
-      chimie fine, les fibres synthétiques et les polymères.
-    logo: /assets/images/uploads/rhodia-tedx-dauphine.png
-    name: Rhodia
-    website: 'https://www.bloc-rhodia.com'
+      Oracle Cloud propose une suite complète d’applications intégrées pour les
+      ventes, les services, le marketing, les ressources humaines, la finance,
+      la supply chain et le manufacturing, ainsi qu’une infrastructure de
+      deuxième génération hautement automatisée et sécurisée qui inclut la base
+      de données Oracle Autonomous.
+
+
+      Oracle compte plus de 420 000 clients (dont la totalité des entreprises du
+      classement Fortune 100) représentant une grande variété de secteurs
+      d'activité dans plus de 145 pays à travers le monde.
+    logo: /assets/images/uploads/logo-oracle-01-1-.png
+    name: Oracle
+    website: 'https://www.oracle.com/fr/index.html'
+  - description: >
+      Nell'Armonia est une société de conseil et services, leader dans son
+      domaine : le pilotage de la performance (EPM - Enterprise Performance
+      Management). Ses 150 consultants travaillent pour plus de 300 grands
+      comptes en Europe.
+
+
+      Les clients font appel à Nell'Armonia quand ils ont un projet SI, de mise
+      en place ou d'évolution de leurs outils pour améliorer leur stratégie et
+      sécuriser leurs décisions, principalement dans le domaine de la finance.
+
+
+      Pour mener à bien sa mission, les consultants de Nell'Armonia sont sa
+      force, leurs compétences son actif et leur épanouissement, son capital.
+    logo: /assets/images/uploads/logo_nellarmonia-1-.png
+    name: Nell'Armonia
+    website: 'https://www.nellarmonia.com/'

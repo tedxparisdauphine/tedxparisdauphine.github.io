@@ -63,12 +63,6 @@ list:
     logo: /assets/images/uploads/sans-titre-5-.png
     name: Oracle
     website: 'https://www.oracle.com/fr/index.html'
-  - description: >-
-      Forbes, le média business à destination des entrepreneurs et
-      décisionnaires.
-    logo: /assets/images/uploads/sans-titre-2-.png
-    name: Forbes France
-    website: 'https://www.forbes.fr/'
   - description: >
       Nell'Armonia est une société de conseil et services, leader dans son
       domaine : le pilotage de la performance (EPM - Enterprise Performance
@@ -100,3 +94,9 @@ list:
     logo: /assets/images/uploads/sans-titre-7-.png
     name: Frenchweb
     website: 'https://www.frenchweb.fr'
+  - description: >-
+      Forbes, le média business à destination des entrepreneurs et
+      décisionnaires.
+    logo: /assets/images/uploads/sans-titre-2-.png
+    name: Forbes France
+    website: 'https://www.forbes.fr/'

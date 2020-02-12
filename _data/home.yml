@@ -13,31 +13,125 @@ ticketing:
   subheading: Prenez dès maintenant vos billets
 latest-edition: '2019'
 speakers:
-  - description: ''
+  - description: >-
+      Formé chez les Compagnons du Tour de France, Thierry Marx est l’un des
+      chefs les plus reconnus de sa génération. Avec une approche innovante et
+      planétaire de la cuisine, Thierry Marx puise son inspiration en France, et
+      à travers ses nombreux voyages, notamment au Japon. Passionné par l’art de
+      vivre nippon et par sa gastronomie, il voyage régulièrement au Pays du
+      soleil Levant pour s’y ressourcer et pratiquer les arts martiaux, dont le
+      kendo et le judo. Proposant des textures et des saveurs avant-gardistes,
+      Thierry Marx défend une cuisine responsable, alliant plaisir et bien-être,
+      qui ne connait pas de conflit entre la tradition et l’innovation. Thierry
+      Marx s’investit aussi hors de ses cuisines. Ardent défenseur de la
+      formation professionnelle, il créé en 2012 « Cuisine Mode d’Emploi(s) ».
+      Il y offre des parcours d'insertion à des personnes éloignées du travail
+      en les formant en gratuitement et en 12 semaines à devenir cuisinier,
+      boulanger ou serveur.
     first-name: Thierry
     last-name: Marx
     picture: /assets/images/uploads/guewenn-loussouarn-tedx-dauphine.png
-  - description: ''
+  - description: >-
+      Professionnelle de l’industrie pharmaceutique durant 26 ans, Nathalie
+      GIMENES s’intéresse aux évolutions des pratiques commerciales et
+      managériales de ce secteur et réalise un doctorat sur la responsabilité
+      sociale des entreprises (RSE) du médicament. Elle dirige aujourd’hui,
+      BE-CONCERNED, un cabinet de conseil expert qu’elle a choisi de créer afin
+      d’inspirer et d’accompagner les dirigeants et leurs équipes à définir ou
+      redéfinir la raison d’être de leur entreprise, ses engagements RSE et de
+      concilier ainsi performance économique et contribution à l’intérêt
+      collectif. Cette année, elle enseignera la RSE aux élèves de Master 1-
+      Management de l'Innovation de l’Université de Paris Dauphine. Dans son
+      talk, Nathalie GIMENES nous fera part de son expérience et de son analyse
+      pour questionner la responsabilité de chacun et celle des entreprises pour
+      répondre aux défis sociaux, environnementaux et économiques actuels !
     first-name: Nathalie
     last-name: Gimenes
     picture: /assets/images/uploads/sandrine-bridoux-tedx-dauphine.png
-  - description: ''
+  - description: >
+      C'est après 20 ans dans le domaine du marketing que Sharon décide de se
+      lancer dans l'aventure de l'entreprenariat. Avec pour constat que plus de
+      65% des enfants qui rentrent à l'école aujourd'hui exerceront un métier
+      qui n'existe pas encore - Sharon a décidé de donner l'opportunité aux
+      familles et professionnels de l'éducation de plonger dans le monde de
+      demain lors d'événements mêlant ateliers interactifs animés par des
+      startups, initiation au code, hackathon et cycle de tables rondes. Sharon
+      exprime à travers Startup For Kids des engagements qui lui tiennent à
+      coeur : pour donner accès à tout un chacun au domaine de la tech et de
+      l'innovation, l'ensemble des éditions sont gratuites. Un programme "Girls
+      Power" vise à sensibiliser les jeunes filles aux carrières du numérique et
+      une édition annuelle de Startup For Kids "Chacun ses superpouvoirs"
+      valorise les projets autour du handicap.
     first-name: Sharon
     last-name: Sofer
     picture: /assets/images/uploads/anna-choury-tedx-dauphine.png
-  - description: ''
+  - description: >+
+      Après ses cinq années d’étude à l’Université Paris-Dauphine, Ousama Bouiss
+      a commencé un doctorat en sciences de gestion sur le thème de la
+      connaissance dans les organisations. Parallèlement, il est consultant au
+      sein du cabinet Hector Advisory, ce qui lui permet d’allier la théorie à
+      la pratique. Les thématiques de recherche d’Ousama s’articulent
+      principalement autour de la « complexité » et de la « connaissance » qu’il
+      cherche à relier aux enjeux des entreprises. Plus encore, Ousama est un
+      fervent défenseur de la « pensée complexe » d’Edgar Morin en laquelle il
+      voit de nombreuses clés pour faire face aux défis contemporains. Passionné
+      de philosophie, il s’inspire de Morin pour complexifier sa pensée, de
+      Bouveresse pour appréhender le langage, d’Arendt pour réfléchir à la
+      politique, de Weil pour étudier le travail ou encore d’Heidegger pour
+      penser la mort. Soucieux de partager ses réflexions et d’engager le
+      dialogue avec le plus grand nombre, il s’essaie à la publication dans des
+      médias grands publics comme « The Conversation ». D’ailleurs, il sortira
+      prochainement un livre où il tente d’appliquer les principes de la pensée
+      complexe au management.
+
     first-name: Ousama
     last-name: Bouiss
     picture: /assets/images/uploads/laurent-rochette-tedx-dauphine.png
-  - description: ''
+  - description: >-
+      L'humoriste et comédienne d'origine franco-ivoirienne Shirley Souagnon
+      s'est fait connaître du grand public grâce à ses participations
+      récurrentes à l'émission "On n'demande qu'à en rire". Depuis son premier
+      one woman show "Sketch Up" en 2008, elle s'est produite sur de nombreuses
+      scènes comme Juste pour rire, le Festival du rire de Montreux ou encore le
+      Jamel Comedy Club. Sur scène, elle n'hésite pas à aborder des sujets
+      parfois tabous comme l'homosexualité et le racisme. Son poste
+      d'ambassadrice de AMREF, une ONG de santé publique africaine, montre son
+      engagement dans des projets humanitaires. Au reste, son adhésion à
+      l'association féministe "Ni putes ni soumises" et sa participation à la
+      rédaction de l'ouvrage "Noire n'est pas mon métier" contre les
+      discriminations faites aux femmes noires et métisses dans le monde du
+      cinéma, font d'elle une artiste plus engagée que jamais
     first-name: Shirley
     last-name: Souagnon
     picture: /assets/images/uploads/sophie-vannier-tedx-dauphine.png
-  - description: ''
+  - description: >-
+      Professeur chercheur en sciences de gestion au sein de l’Université
+      Paris-Dauphine, Hervé Alexandre est passionné par le dynamisme du secteur
+      bancaire et financier et son évolution. Il est l’un des pionniers de la
+      Fintech en France et s’intéresse tout particulièrement à l’entrée
+      inexorable de la sphère bancaire et financière au sein du monde numérique,
+      et aux conséquences que cela pourrait entraîner.  Chercheur en sciences de
+      gestion au sein de l’Université Paris-Dauphine, Hervé Alexandre y enseigne
+      l’intermédiation bancaire et financière en master, et publie parallèlement
+      de nombreux articles relatifs à la banque digitale. Il a également rédigé
+      des ouvrages et des rapports reprenant ses thèmes de prédilection.
     first-name: Hervé
     last-name: Alexandre
     picture: /assets/images/uploads/anne-caroline-paucot-tedx-dauphine.png
-  - description: ''
+  - description: >-
+      En 2017, Loubna Ksibi co-fonde Meet My Mama, une plateforme traiteur qui
+      accompagne et forme des femmes (les Mamas) issues de l’immigration et
+      passionnées de cuisine afin qu’elles puissent vivre de leur talent. En
+      réinventant les déjeuners et soirées d’entreprises grâce aux voyages
+      culinaires proposés, Meet My Mama se place comme acteur clé de la food
+      tech visant à rendre l’industrie alimentaires plus inclusive, durable et
+      responsable. Diplômée de Dauphine, du Master IREN (Industries de Réseau et
+      Économie Numérique), Loubna Ksibi a réalisé son alternance chez PwC puis
+      IBM, en Intelligence Artificielle, avant de refuser un CDI pour se lancer
+      dans l’entrepreneuriat avec l’incubateur de Dauphine. Loubna conserve son
+      appétence pour l’innovation en siégeant au Conseil National du Numérique.
+      Elle est nommée comme l’une des 10 femmes de la Tech à suivre et classée
+      parmi les “30 Under 30” de Forbes.
     first-name: Loubna
     last-name: Ksibi
     picture: /assets/images/uploads/joffrey-persia-tedx-dauphine.png

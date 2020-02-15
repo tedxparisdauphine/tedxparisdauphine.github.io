@@ -18,6 +18,19 @@ speakers:
     last-name: Marx
     picture: /assets/images/uploads/photo-thierry-marx.png
   - description: ''
+    first-name: Shirley
+    last-name: Souagnon
+    picture: /assets/images/uploads/photo-shirley.png
+  - description: ''
+    first-name: Noman
+    last-name: Hosni
+    picture: /assets/images/uploads/photo-noman-hosni.png
+  - description: |+
+
+    first-name: Ousama
+    last-name: Bouiss
+    picture: /assets/images/uploads/photo-ousama-bouiss.png
+  - description: ''
     first-name: Nathalie
     last-name: Gimenes
     picture: /assets/images/uploads/photo-nathalie-gimenes.png
@@ -25,15 +38,6 @@ speakers:
     first-name: Sharon
     last-name: Sofer
     picture: /assets/images/uploads/photo-sharon-sofer.png
-  - description: |+
-
-    first-name: Ousama
-    last-name: Bouiss
-    picture: /assets/images/uploads/photo-ousama-bouiss.png
-  - description: ''
-    first-name: Shirley
-    last-name: Souagnon
-    picture: /assets/images/uploads/photo-shirley.png
   - description: ''
     first-name: Hervé
     last-name: Alexandre
@@ -42,7 +46,3 @@ speakers:
     first-name: Loubna
     last-name: Ksibi
     picture: /assets/images/uploads/photo-loubna.png
-  - description: ''
-    first-name: Noman
-    last-name: Hosni
-    picture: /assets/images/uploads/photo-noman-hosni.png

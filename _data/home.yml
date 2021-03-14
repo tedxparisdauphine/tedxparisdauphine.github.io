@@ -5,12 +5,12 @@ regular:
     Ne manquez pas nos prochains événements et inscrivez-vous à notre newsletter
     pour être tenu au courant.
 ticketing:
-  cover-image: /assets/images/uploads/facebook-cover.png
+  cover-image: /assets/images/uploads/couverture-fb.png
   heading: |-
-    TEDx revient à Dauphine
+    TEDx revient à Dauphine et cette fois en digital
 
-    **le 4 novembre** !
-  subheading: Prenez dès maintenant vos billets
+    **le 23 mars **!
+  subheading: Prenez dès maintenant vos billets (en plus c'est gratuit)
 latest-edition: '2019'
 speakers:
   - description: ''
